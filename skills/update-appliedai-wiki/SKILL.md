@@ -203,10 +203,10 @@ which reads as a failed ship.
 
 ```bash
 UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"
-curl -sL -A "$UA" https://appliedai.wiki/<section>/<slug> | grep -o '<title>[^<]*'
+curl -sL -A "$UA" https://appliedai.wiki/<section>/<slug> | grep -o '<title[^>]*>[^<]*'
 ```
 
-Check the `<title>`, not just the status: a redirect stub from
+The tag ships as `<title data-rh=true>`, so a pattern of a bare `<title>` matches nothing on a live page and a wait loop built on it never ends. Check the `<title>`, not just the status: a redirect stub from
 `plugin-client-redirects` also returns 200, with no title. For a renamed page,
 confirm the old slug's stub by reading its `canonical` href.
 

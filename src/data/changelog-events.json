@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/hyperlocal-context@620b9af44f6e2f0da8c735a358fe1ea46158dd87",
+      "type": "updated",
+      "date": "2026-10-13T10:11:28-04:00",
+      "docKey": "concepts/hyperlocal-context",
+      "routePath": "/concepts/hyperlocal-context",
+      "section": "concepts",
+      "title": "Hyperlocal Context",
+      "description": "A placement rule for everything an agent has to know: each piece of context lives beside the work it is about, and the agent reads it only when that work comes up. One memory that only grows is read whole on every turn, and that is where it fails."
+    },
+    {
       "id": "concepts/hyperlocal-context@c423773d7f11785aa062e7d697e0e122d8473eda",
       "type": "new",
       "date": "2026-10-13T10:01:56-04:00",
@@ -15734,7 +15744,7 @@
   ],
   "pageDates": {
     "concepts/hyperlocal-context": {
-      "updated": "2026-10-13T10:01:56-04:00",
+      "updated": "2026-10-13T10:11:28-04:00",
       "created": "2026-10-13T10:01:56-04:00"
     },
     "concepts/hyperlocal-skills": {
