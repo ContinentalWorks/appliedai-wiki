@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/hyperlocal-context@c423773d7f11785aa062e7d697e0e122d8473eda",
+      "type": "new",
+      "date": "2026-10-13T10:01:56-04:00",
+      "docKey": "concepts/hyperlocal-context",
+      "routePath": "/concepts/hyperlocal-context",
+      "section": "concepts",
+      "title": "Hyperlocal Context",
+      "description": "A placement rule for everything an agent has to know: each piece of context lives beside the work it is about, and the agent reads it only when that work comes up. One memory that only grows is read whole on every turn, and that is where it fails."
+    },
+    {
+      "id": "concepts/hyperlocal-skills@c423773d7f11785aa062e7d697e0e122d8473eda",
+      "type": "updated",
+      "date": "2026-10-13T10:01:56-04:00",
+      "docKey": "concepts/hyperlocal-skills",
+      "routePath": "/concepts/hyperlocal-skills",
+      "section": "concepts",
+      "title": "Hyperlocal Skills",
+      "description": "A file-organization pattern for harness users: a skill file lives in the repo it operates on, and a global index of symlinks makes it discoverable from anywhere. Hyperlocal home, global pointer."
+    },
+    {
+      "id": "concepts/memory-files@c423773d7f11785aa062e7d697e0e122d8473eda",
+      "type": "updated",
+      "date": "2026-10-13T10:01:56-04:00",
+      "docKey": "concepts/memory-files",
+      "routePath": "/concepts/memory-files",
+      "section": "concepts",
+      "title": "Memory Files",
+      "description": "Harness-managed notes the agent writes to itself between sessions. Opaque, agent-curated, vendor-specific. A worse-engineered version of what AGENTS.md already does. Off by default in this framework."
+    },
+    {
       "id": "concepts/hyperlocal-skills@3ccab7c5c0ef94509b5f64ba5abe20f8a71b679c",
       "type": "updated",
       "date": "2026-10-09T18:45:59-04:00",
@@ -15703,9 +15733,17 @@
     }
   ],
   "pageDates": {
+    "concepts/hyperlocal-context": {
+      "updated": "2026-10-13T10:01:56-04:00",
+      "created": "2026-10-13T10:01:56-04:00"
+    },
     "concepts/hyperlocal-skills": {
-      "updated": "2026-10-09T18:45:59-04:00",
+      "updated": "2026-10-13T10:01:56-04:00",
       "created": "2026-07-10T16:28:54-05:00"
+    },
+    "concepts/memory-files": {
+      "updated": "2026-10-13T10:01:56-04:00",
+      "created": "2026-05-23T23:46:32-05:00"
     },
     "concepts/idempotent-steps": {
       "updated": "2026-10-09T11:11:31-04:00",
@@ -16910,10 +16948,6 @@
     "disciplines/sop-execution-app/when-to-get-one": {
       "updated": "2026-08-09T18:54:49-05:00",
       "created": "2026-05-27T16:07:58-05:00"
-    },
-    "concepts/memory-files": {
-      "updated": "2026-08-04T15:06:27-05:00",
-      "created": "2026-05-23T23:46:32-05:00"
     },
     "disciplines/ontology-as-substrate": {
       "updated": "2026-07-25T21:47:06-05:00",
