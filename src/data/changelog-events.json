@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/hyperlocal-skills@3ccab7c5c0ef94509b5f64ba5abe20f8a71b679c",
+      "type": "updated",
+      "date": "2026-10-09T18:45:59-04:00",
+      "docKey": "concepts/hyperlocal-skills",
+      "routePath": "/concepts/hyperlocal-skills",
+      "section": "concepts",
+      "title": "Hyperlocal Skills",
+      "description": "A file-organization pattern for harness users: a skill file lives in the repo it operates on, and a global index of symlinks makes it discoverable from anywhere. Hyperlocal home, global pointer."
+    },
+    {
       "id": "concepts/agentic-project-management@84aa5c69bb9b146a0994c354719e024d2ce746db",
       "type": "removed",
       "date": "2026-10-09T11:11:31-04:00",
@@ -15694,7 +15704,7 @@
   ],
   "pageDates": {
     "concepts/hyperlocal-skills": {
-      "updated": "2026-10-09T11:11:31-04:00",
+      "updated": "2026-10-09T18:45:59-04:00",
       "created": "2026-07-10T16:28:54-05:00"
     },
     "concepts/idempotent-steps": {

@@ -75,7 +75,7 @@ If you are running a deliberate context system, every category of thing the harn
 - **Project state and status** → `STATUS.md` or a strategic-document artifact.
 - **Cross-cutting truths and definitions** → wiki concept pages.
 
-If you cannot articulate why a "thing to remember" does not belong in one of these files, it belongs in one of these files.
+If you cannot articulate why a "thing to remember" does not belong in one of these files, it belongs in one of these files. The rule that sorts them is [Hyperlocal Context](/concepts/hyperlocal-context): route each one by when it needs to fire.
 
 ## The Codex paradox
 

@@ -1,0 +1,153 @@
+{
+  "mode": "derive",
+  "derivedFrom": "illustrations/concepts/hyperlocal-context.png",
+  "sourceRecipe": "illustrations/concepts/hyperlocal-context.png.recipe.json",
+  "generator": "optimize-images.py (wiki optimize-images)",
+  "generatedAt": "2026-10-13T13:56:37.550Z",
+  "asset": "static/img/comics/concepts/hyperlocal-context.webp",
+  "stylePack": "warm-editorial-titled",
+  "wikiHero": {
+    "slug": "concepts/hyperlocal-context",
+    "title": "HYPERLOCAL CONTEXT",
+    "labels": [
+      "ONE PILE, READ WHOLE",
+      "FILED BESIDE THE WORK",
+      "READ WHEN IT COMES UP"
+    ],
+    "beats": [
+      "BEAT ONE: A woman in her forties with shoulder-length curly auburn hair, round tortoiseshell glasses and a mustard cardigan over a navy shirt sits at a wooden desk, seen from behind her right shoulder; the camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. Inside the glowing translucent amber laptop screen, the Chief of Agents, a small rounded character in a gold military cap, is buried to the chin under one enormous single unrolled paper scroll that spills in loops across the whole screen, trying to read all of it at once while holding one small envelope. She rests her chin on her hand, waiting.",
+      "BEAT TWO: The SAME woman, same auburn curls, same tortoiseshell glasses, same mustard cardigan, same desk, same over-the-right-shoulder camera with her nearer to the camera than the laptop and the lid tilting away from the camera. In the warm real room she is placing small paper notes into separate cardboard file folders standing in a wooden tray on the desk beside the laptop. Inside the amber screen the giant scroll is gone: the Chief of Agents stands beside a tidy row of small closed folders on a shelf, each folder a different muted colour.",
+      "BEAT THREE: The SAME woman, same hair, glasses and cardigan, same desk and same over-the-right-shoulder camera with her nearer to the camera than the laptop and the lid tilting away. Inside the amber screen the Chief of Agents holds the one small envelope and has opened exactly ONE folder from the shelf, reading a single short page from it, while every other folder stays closed on the shelf. She leans back with a mug of tea, relaxed. In all three beats it is the same single woman and the same laptop. NEVER: the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual."
+    ],
+    "layout": "row",
+    "tier": "best",
+    "adapter": "abu"
+  },
+  "readback": {
+    "rounds": 1,
+    "overruled": false,
+    "verdicts": [
+      {
+        "assertion": "every face the camera sees from the front, three-quarter front or full profile has its visible eyes open and clearly drawn unless the person is plainly asleep; an eye there drawn closed, blank or hidden under hair or glare is a DEFECT. A person seen from behind or over the shoulder (the back of the head, or a lost profile showing at most a cheek and the edge of an eye) is not required to show their eyes and is never a DEFECT under this line",
+        "verdict": "PASS",
+        "note": "The over-shoulder person is mostly seen from behind, and the visible character faces on the laptop screens have open, clearly drawn eyes."
+      },
+      {
+        "assertion": "no lettering beyond the declared strings; invented words on folders, screens or tags are a DEFECT",
+        "verdict": "PASS",
+        "note": "I see only the declared title and panel-label lettering; other marks on papers/notebooks are non-legible strokes."
+      },
+      {
+        "assertion": "a screen faces the person using it, never the viewer",
+        "verdict": "PASS",
+        "note": "Each laptop screen faces the seated user, with the viewer looking over the user's shoulder."
+      },
+      {
+        "assertion": "exactly 3 panels, one per beat, no more and no fewer",
+        "verdict": "PASS",
+        "note": "There are exactly three illustration panels."
+      },
+      {
+        "assertion": "the panels sit in one horizontal row, read left to right, with cream gutters and no drawn borders",
+        "verdict": "PASS",
+        "note": "The three panels sit in a single horizontal row with cream gutters and no drawn border outlines."
+      },
+      {
+        "assertion": "warm editorial painterly illustration, soft brushwork; NOT comic, NOT flat vector, NOT photoreal, NOT 3D",
+        "verdict": "PASS",
+        "note": "The image is a warm painterly editorial illustration with soft brushwork, not flat vector, comic, photoreal, or 3D."
+      },
+      {
+        "assertion": "muted natural palette on a warm cream ground",
+        "verdict": "PASS",
+        "note": "The colors are muted and natural on a warm cream background."
+      },
+      {
+        "assertion": "no figure carries the likeness the style references leak: nobody wears a denim or jean jacket, a chest patch, a smiley-face badge, an enamel pin or a white tee under an open jacket, and nobody is a recognizable real public figure; any of these is a DEFECT. People are ordinary and drawn from the scene's own description",
+        "verdict": "PASS",
+        "note": "No one wears denim/jean jackets, patches, smiley badges, enamel pins, or a white tee under an open jacket, and no public figure likeness appears."
+      },
+      {
+        "assertion": "ONE consistent cast: the person using the glowing laptop is the same person in every panel they appear in, with the same face, hair, age and clothing. That recurrence is the strip's law and is never a DEFECT; a different person in that role from one panel to the next is a DEFECT",
+        "verdict": "PASS",
+        "note": "The laptop user is the same red-haired person in the same mustard sweater across all panels."
+      },
+      {
+        "assertion": "whoever is using the glowing laptop is shot from behind them, over their shoulder: they are nearer to the camera than the laptop is, its screen faces them, and we look past them into it. A laptop standing between the camera and the person using it, whichever way its lid faces, is a DEFECT",
+        "verdict": "PASS",
+        "note": "The glowing laptop is viewed over the user's shoulder, with the user nearer than the laptop and the screen facing them."
+      },
+      {
+        "assertion": "every declared string is present and spelled character-exact; a near-miss is a DEFECT",
+        "verdict": "PASS",
+        "note": "All declared strings are present and spelled exactly as specified."
+      },
+      {
+        "assertion": "no text beyond the declared strings; invented lettering is a DEFECT",
+        "verdict": "PASS",
+        "note": "No additional readable text beyond the declared strings is present."
+      },
+      {
+        "assertion": "the title bar sits across the top margin and each label in its own band at the top of its panel, never lettered over the artwork; there is no footer bar and none is expected",
+        "verdict": "PASS",
+        "note": "The title is in the top margin and each panel label is in its own top band, with no footer bar."
+      },
+      {
+        "assertion": "DEVICE FACING: for EVERY phone, laptop, tablet or monitor in frame, crop-zoom the device together with the person using it. The glowing display is on the side that faces its user. If the viewer can see the screen's content AND the user is on the far side of the device (the device sits between the camera and the user's face), the screen is on the wrong side of the device: DEFECT. A visible screen passes only when the shot is over the user's shoulder, or when nobody in frame is using the device. AND THE SECOND DEFECT, which an anatomically correct render still commits: if what the screen shows (or fails to show) is part of what this beat argues, and the camera is in FRONT of the user so the viewer sees the back of the device and not the display, the beat has been shot from a position that cannot show its own subject: DEFECT. Judge it by the beat, not by the anatomy; a clean view of the back of the device is a correct picture of the wrong thing.",
+        "verdict": "PASS",
+        "note": "All visible laptop displays face the user and are shown from an over-the-shoulder angle that can show the beat's screen subject."
+      },
+      {
+        "assertion": "READABLE SURFACE: every page, card, sign, letter or other writing surface is oriented for the person reading it in the scene, not rotated flat to the lens. A surface whose reader is looking at it from the wrong side, or whose writing faces the camera while its reader faces away: DEFECT.",
+        "verdict": "PASS",
+        "note": "Visible papers/cards/notebooks are oriented toward the person using or reading them, not unnaturally flattened to the lens."
+      },
+      {
+        "assertion": "VEHICLE SEAT FACING: every rider or passenger in a moving vehicle faces the direction of travel unless the scene says otherwise. A rider facing backward in a forward-moving vehicle: DEFECT.",
+        "verdict": "PASS",
+        "note": "There are no moving vehicles or riders/passengers shown."
+      },
+      {
+        "assertion": "SEATED ANATOMY: every seated figure has a waist, a lap and a seat under them, with the table in front of the body. A torso emerging from the tabletop with nothing beneath it: DEFECT.",
+        "verdict": "PASS",
+        "note": "The seated person has a visible body, lap/legs or seat context, and the table is in front of them."
+      },
+      {
+        "assertion": "NO UI CHROME: no screen or surface carries invented interface furniture, menus, buttons, status bars or lettering the caller did not declare. Any such chrome: DEFECT.",
+        "verdict": "PASS",
+        "note": "The laptop screens show illustrations without invented UI menus, buttons, status bars, or other chrome."
+      },
+      {
+        "assertion": "the title bar across the top reads exactly \"HYPERLOCAL CONTEXT\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "The title reads exactly \"HYPERLOCAL CONTEXT\"."
+      },
+      {
+        "assertion": "the label band on panel 1 reads exactly \"ONE PILE, READ WHOLE\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 1 label reads exactly \"ONE PILE, READ WHOLE\"."
+      },
+      {
+        "assertion": "the label band on panel 2 reads exactly \"FILED BESIDE THE WORK\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 2 label reads exactly \"FILED BESIDE THE WORK\"."
+      },
+      {
+        "assertion": "the label band on panel 3 reads exactly \"READ WHEN IT COMES UP\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 3 label reads exactly \"READ WHEN IT COMES UP\"."
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "tool": "scripts/optimize-images.py",
+      "op": "webp",
+      "quality": 80,
+      "maxWidth": 1536,
+      "from": "static/img/comics/concepts/hyperlocal-context.png",
+      "fromSha256": "f9859bd843bd60bde9d14e8a5bf877961c091a8e91b91ea8bcbb6feee92f53b7",
+      "at": "2026-10-13T13:56:43.307230+00:00"
+    }
+  ]
+}
