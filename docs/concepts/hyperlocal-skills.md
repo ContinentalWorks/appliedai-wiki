@@ -75,6 +75,7 @@ The same rule applies one level further in. A skill that only makes sense for on
 
 ## Further Reading
 
+- [Hyperlocal Context](/concepts/hyperlocal-context): the general rule this pattern is one case of, for every kind of context an agent reads.
 - [Skill Files](/concepts/skill-files): the primitive this pattern organizes.
 - [Fat Skills](/concepts/fat-skills): what the skill itself should look like once it has a home.
 - [Agent Rule Files](/concepts/agent-rule-files): the always-loaded layer that points agents at the hyperlocal skills.
