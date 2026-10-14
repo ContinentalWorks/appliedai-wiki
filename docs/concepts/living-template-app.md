@@ -78,7 +78,7 @@ The rule is short: every template app needs its own plugin. A template with no p
 
 There is a practical reason this pattern matters beyond efficiency. People do not adopt an agentic system because it "makes their computer better." That sentence is true and moves nobody. They adopt it because of one concrete thing it did for their life: *it helped me document my baby's first year.* A tailored app is that concrete thing. It is the first proof a person can point at, and the reason the rest of the system starts to make sense to them.
 
-[Freedom](https://getfreedom.wiki/concepts/living-template-app) is built to make that step easy: the agent reads who the person is, tailors the template to them, provisions what they own, and keeps the copy current as the template improves.
+[Supersuit](https://getfreedom.wiki/concepts/living-template-app) is built to make that step easy: the agent reads who the person is, tailors the template to them, provisions what they own, and keeps the copy current as the template improves.
 
 ## How it relates to its neighbors
 
@@ -91,7 +91,7 @@ There is a practical reason this pattern matters beyond efficiency. People do no
 
 ## Further Reading
 
-- [Freedom: Living Template App](https://getfreedom.wiki/concepts/living-template-app): how the system tailors a living template to one person and keeps it current.
+- [Supersuit: Living Template App](https://getfreedom.wiki/concepts/living-template-app): how the system tailors a living template to one person and keeps it current.
 - [Local-First Software](/concepts/local-first-software): why the tailored app keeps its data on stores the owner holds.
 - [Golden Processes](/concepts/golden-processes): the assembly a template captures, blessed once and rerun for every owner.
 - [Own Your Libraries](/concepts/own-your-libraries): the same reuse argument at the level of code you build once and inherit forever.
