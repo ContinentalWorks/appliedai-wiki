@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/in-context-learning@48d01a047fc248a7fe3a3e0c973a3054a469a925",
+      "type": "updated",
+      "date": "2026-10-15T12:21:12-04:00",
+      "docKey": "concepts/in-context-learning",
+      "routePath": "/concepts/in-context-learning",
+      "section": "concepts",
+      "title": "In-Context Learning",
+      "description": "The only lever you have. You cannot touch the model's weights, so every customization enters as text in the context window. Which turns agent customization into context engineering under a fixed budget."
+    },
+    {
       "id": "concepts/living-template-app@d9c96343109316b6ac534dfaa71414b2eb7f65bc",
       "type": "updated",
       "date": "2026-10-14T16:58:43-04:00",
@@ -15763,6 +15773,10 @@
     }
   ],
   "pageDates": {
+    "concepts/in-context-learning": {
+      "updated": "2026-10-15T12:21:12-04:00",
+      "created": "2026-07-20T07:59:12-05:00"
+    },
     "concepts/living-template-app": {
       "updated": "2026-10-14T16:58:43-04:00",
       "created": "2026-09-30T19:36:23-05:00"
@@ -15986,10 +16000,6 @@
     "concepts/hand-rolling": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-07-23T13:03:40-05:00"
-    },
-    "concepts/in-context-learning": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-07-20T07:59:12-05:00"
     },
     "concepts/in-on-out-of-the-loop": {
       "updated": "2026-08-29T07:29:14-04:00",
