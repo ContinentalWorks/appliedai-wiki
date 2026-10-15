@@ -27,13 +27,21 @@ Skills, tools, [agent rule files](/concepts/agent-rule-files), [skill files](/co
 
 ## Why the weights are a dead end
 
-The obvious objection is: why not fine-tune? Just train your codebase's conventions, your internal vocabulary, your institutional memory into a model and be done. At frontier scale this fails, for three reasons.
+The obvious objection is: why not fine-tune? Train your codebase's conventions, your internal vocabulary, your institutional memory into a model and be done.
+
+"Training AI" and "fine-tuning a model" are two of the most overloaded phrases in business. When a founder says they want an AI trained on their company, what they want is a model that knows their people, their customers, their history, and how they like things done. The phrase points them at the hardest, slowest and most expensive way to get it. Fine-tuning in the technical sense means changing a model's weights: gather and clean thousands of examples, rent specialized compute, run the job, test what came out, and pay engineers who know how to do all of it. What comes back is a snapshot of the business as of the day the data was collected. At frontier scale this fails, for four reasons.
 
 **The bitter lesson.** General AI wins out over specialized AI in the long run. A model trained broadly and cheaply keeps overtaking the hand-tuned specialist. Betting your customization on a narrowly tuned model is betting against the direction the whole field moves.
 
 **Frontier churn.** Frontier models turn over fast. By the time even a very large company finishes fine-tuning for something small, a stronger base model has shipped, and the fine-tune has to start over against the new floor. The economics do not close.
 
 **Hallucination.** Fine-tuning on specialized, factual, company-specific information can make a model hallucinate *more*, not less. Teaching the weights new facts pushes the model to confabulate in the neighborhood of those facts. Research from late 2025 documents the effect.
+
+**Opacity.** What a fine-tune taught the model cannot be read, corrected line by line, or carried to another vendor. A wrong lesson sits in the weights until the next training run, and the whole investment is pinned to one base model. A wrong line in a context file is fixed by editing the line, and the next answer changes.
+
+The vendors who sell fine-tuning say as much. OpenAI's [model optimization guide](https://developers.openai.com/api/docs/guides/model-optimization), which covers its fine-tuning service, starts developers on clear instructions and examples, and says that "the prompt engineering process may be all you need in order to get great results for your use case." Fine-tuning still earns its place for a few narrow jobs run at high volume. As a way for one person or one company to make a frontier model theirs, it is the wrong tool.
+
+The alternative is to tune in context. The frontier model stays as the lab ships it, improving every month at the lab's expense, and the files it reads tune it to the client: the instruction files, the files about their people and projects, the skills that encode how their work is done, the examples they approved. When a better model ships, the client switches the same day and everything it knew about them comes along, because none of it lived in the old model. Fine-tuning freezes intelligence around who the client was. Context keeps evolving it around who they are.
 
 So the weights are not a lever you fight to reach. Institutional knowledge, things that changed last week, internal APIs, the stuff that is uniquely yours: none of it belongs in a training run. It belongs in the context, delivered as text, at the moment the agent needs it.
 

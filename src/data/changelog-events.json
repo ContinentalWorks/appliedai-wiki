@@ -1,6 +1,26 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/living-template-app@d9c96343109316b6ac534dfaa71414b2eb7f65bc",
+      "type": "updated",
+      "date": "2026-10-14T16:58:43-04:00",
+      "docKey": "concepts/living-template-app",
+      "routePath": "/concepts/living-template-app",
+      "section": "concepts",
+      "title": "Living Template App",
+      "description": "An app already about 99% built for a common life need, kept as one shared template that keeps improving. A person's agent tailors it to them with a prompt, they own the result, and every improvement to the template keeps flowing into their copy without overwriting what they changed."
+    },
+    {
+      "id": "perspectives/be-choosy-about-who-co-evolves-your-framework@d9c96343109316b6ac534dfaa71414b2eb7f65bc",
+      "type": "updated",
+      "date": "2026-10-14T16:58:43-04:00",
+      "docKey": "perspectives/be-choosy-about-who-co-evolves-your-framework",
+      "routePath": "/perspectives/be-choosy-about-who-co-evolves-your-framework",
+      "section": "perspectives",
+      "title": "Be Choosy About Who Co-Evolves Your Framework",
+      "description": "A framework you want others to adopt and co-evolve is shaped by whoever you let in. Every adopter's bug report is taken on faith and every pull request is taken on average, so the wrong adopters cost you bloat, and no software can be everything to everyone."
+    },
+    {
       "id": "concepts/hyperlocal-context@620b9af44f6e2f0da8c735a358fe1ea46158dd87",
       "type": "updated",
       "date": "2026-10-13T10:11:28-04:00",
@@ -15743,6 +15763,14 @@
     }
   ],
   "pageDates": {
+    "concepts/living-template-app": {
+      "updated": "2026-10-14T16:58:43-04:00",
+      "created": "2026-09-30T19:36:23-05:00"
+    },
+    "perspectives/be-choosy-about-who-co-evolves-your-framework": {
+      "updated": "2026-10-14T16:58:43-04:00",
+      "created": "2026-09-13T08:19:43-05:00"
+    },
     "concepts/hyperlocal-context": {
       "updated": "2026-10-13T10:11:28-04:00",
       "created": "2026-10-13T10:01:56-04:00"
@@ -15774,10 +15802,6 @@
     "skills/index": {
       "updated": "2026-10-09T11:11:31-04:00",
       "created": "2026-06-07T19:36:45-05:00"
-    },
-    "concepts/living-template-app": {
-      "updated": "2026-09-30T21:06:04-05:00",
-      "created": "2026-09-30T19:36:23-05:00"
     },
     "concepts/local-first-software": {
       "updated": "2026-09-30T19:36:23-05:00",
@@ -15842,10 +15866,6 @@
     "reference/standards/index": {
       "updated": "2026-09-14T21:44:17-05:00",
       "created": "2026-05-15T11:10:04-05:00"
-    },
-    "perspectives/be-choosy-about-who-co-evolves-your-framework": {
-      "updated": "2026-09-13T08:19:43-05:00",
-      "created": "2026-09-13T08:19:43-05:00"
     },
     "concepts/prompt-guards": {
       "updated": "2026-09-12T18:12:13-05:00",
