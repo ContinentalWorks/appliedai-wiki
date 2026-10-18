@@ -108,7 +108,7 @@ A vague skill produces vague output. A precise skill produces precise output. Sa
 
 ## For practitioners
 
-When you set up a [Supersuit](https://supersuit.wiki/concepts/supersuit) for a principal, the skill library is the bulk of the work. The [agent rule file](/concepts/agent-rule-files) is one document. The skills are dozens. Each one captures a workflow the principal already does manually, encoded so the agent can run it on demand.
+When you set up a [Supersuit](https://wiki.supersuit.co/concepts/supersuit) for a principal, the skill library is the bulk of the work. The [agent rule file](/concepts/agent-rule-files) is one document. The skills are dozens. Each one captures a workflow the principal already does manually, encoded so the agent can run it on demand.
 
 Your job is to write these well. The principal will describe the workflow in conversation. You translate it into a skill file that the agent can execute consistently. The first version is rough. The second is sharper. By the fifth invocation, the skill is encoding judgment the principal would have repeated by hand a hundred more times.
 
@@ -129,4 +129,4 @@ This is [context engineering](/disciplines/context-engineering) at the workflow 
 - [Spec Writing](/disciplines/spec-writing): the quality chain that applies to every skill file.
 - [CLIPs](/concepts/clips): where skills end and full programs begin.
 - [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): the system the skill library configures.
-- [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop): where the principal writes their first skill files.
+- [Supersuit Up Workshop](https://wiki.supersuit.co/start-here/install): where the principal writes their first skill files.

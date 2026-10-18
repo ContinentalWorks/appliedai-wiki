@@ -13,7 +13,7 @@ description: "Five stages: find the right engineer, brief them well, ship v0.1 i
 
 ## Find your embedded applied AI partner (who will also build the app)
 
-The canonical move is to commission your SOP Execution App from your [**Embedded Applied AI Partner**](https://supersuit.wiki/concepts/embedded-applied-ai-partner): the same person who continually evolves your [Supersuit](https://supersuit.wiki/concepts/supersuit). The build engagement and the durable engagement should not be two different hires. The partner already knows your [skill files](https://appliedai.wiki/concepts/skill-files), your voice rules, your workflow, your relationship context, and the rails of your suit; they are the right person to package a proven workflow as a deployed app, and they are the right person to keep it tailored after launch. If you do not yet have an embedded partner, the SOP Execution App engagement is often how that relationship begins.
+The canonical move is to commission your SOP Execution App from your [**Embedded Applied AI Partner**](https://supersuit.wiki/concepts/embedded-applied-ai-partner): the same person who continually evolves your [Supersuit](https://wiki.supersuit.co/concepts/supersuit). The build engagement and the durable engagement should not be two different hires. The partner already knows your [skill files](https://appliedai.wiki/concepts/skill-files), your voice rules, your workflow, your relationship context, and the rails of your suit; they are the right person to package a proven workflow as a deployed app, and they are the right person to keep it tailored after launch. If you do not yet have an embedded partner, the SOP Execution App engagement is often how that relationship begins.
 
 The profile is specific.
 

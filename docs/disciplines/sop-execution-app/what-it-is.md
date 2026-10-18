@@ -18,7 +18,7 @@ image: "/img/comics/sop-execution-app.webp"
 
 A **SOP Execution App** is a custom web application built around the [hyperagent](https://supersuit.wiki/concepts/hyperagent)'s curated [digital SOPs](https://supersuit.wiki/concepts/digital-sops). The shape is not a single button dashboard: it is a multi-tab app where **every SOP has its own page and its own form**. The user opens the tab for the SOP they want to run, fills in the form (typed inputs, voice-to-text, file uploads, dropdowns that read from their PAOS context like `people/` or `artifacts/`), and presses run. The agent executes the [skill file](https://appliedai.wiki/concepts/skill-files) behind that tab against the form inputs and lands the output on the same page.
 
-The relationship to the [Supersuit](https://supersuit.wiki/concepts/supersuit) is structural: the SOP Execution App is a **deployment artifact for skill files that were developed and proven inside the hyperagent's Personal Agentic OS first**. The PAOS is the source. The app is one of several places those proven skills get fired from. See [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second) for the development order this depends on.
+The relationship to the [Supersuit](https://wiki.supersuit.co/concepts/supersuit) is structural: the SOP Execution App is a **deployment artifact for skill files that were developed and proven inside the hyperagent's Personal Agentic OS first**. The PAOS is the source. The app is one of several places those proven skills get fired from. See [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second) for the development order this depends on.
 
 ## One app per employee, connected through a team shared context layer
 

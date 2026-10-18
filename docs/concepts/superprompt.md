@@ -47,7 +47,7 @@ Nothing in a superprompt is trained into the model. The weights are the same for
 
 So the quality of a superprompt is a property of the context, which makes building one a [context engineering](/disciplines/context-engineering) problem. The three reused layers are written once, maintained, and read on every fire. Each improvement to them improves every future prompt that loads them, and the utterance can shrink as they grow, because it no longer has to carry the background, the standards, or the procedure. It only has to carry the intent.
 
-This is also why the gap between two operators on the same tools keeps widening. The model and the harness can be identical. The files behind the utterance are not, and they are the part a competitor cannot copy, which is what the [personal agentic edge](https://supersuit.wiki/concepts/personal-agentic-edge) names.
+This is also why the gap between two operators on the same tools keeps widening. The model and the harness can be identical. The files behind the utterance are not, and they are the part a competitor cannot copy, which is what the [personal agentic edge](https://wiki.supersuit.co/concepts/personal-agentic-edge) names.
 
 ## An example
 
@@ -76,4 +76,4 @@ Typed into an empty chat window, the same sentence produces a question back, or 
 - [Context Engineering](/disciplines/context-engineering): the discipline of deciding what goes in the window.
 - [Harness Engineering](/disciplines/harness-engineering): the code that assembles the layers and sends them.
 - [Playable Harness Experience](/concepts/playable-harness-experience): a shippable bundle of skills and templates, played by firing superprompts against it.
-- [Personal Agentic Edge](https://supersuit.wiki/concepts/personal-agentic-edge): why the reused layers are what separate two operators on the same model.
+- [Personal Agentic Edge](https://wiki.supersuit.co/concepts/personal-agentic-edge): why the reused layers are what separate two operators on the same model.

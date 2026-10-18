@@ -12,7 +12,7 @@ description: "Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Ven
 
 ## The Question I Get Most
 
-Somewhere in almost every [Supersuit Up workshop](https://supersuit.wiki/paos/supersuit-up-workshop), an attendee asks some version of this:
+Somewhere in almost every [Supersuit Up workshop](https://wiki.supersuit.co/start-here/install), an attendee asks some version of this:
 
 > “I'm having a hard time with this whole VS Code plus terminal thing. Claude Cowork is friendlier. Isn't that the same thing, basically?”
 
@@ -128,7 +128,7 @@ If you run your entire workflow inside a single vendor's wrapper, you can be rat
 
 ## Sovereignty Is the Point
 
-The goal of the [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop) is to build on sovereign foundations. Workshops are a means to that end. VS Code is a means. Claude Code is a means.
+The goal of the [Supersuit Up Workshop](https://wiki.supersuit.co/start-here/install) is to build on sovereign foundations. Workshops are a means to that end. VS Code is a means. Claude Code is a means.
 
 What the workshop is actually teaching: **how to own your operational reality in a format that outlives any single vendor, any single harness, and any single wrapper.**
 
@@ -155,7 +155,7 @@ The friction is real. The upside is uncapped.
 - [Personal Software](https://supersuit.wiki/concepts/personal-software): Custom UIs over shared files and agents
 - [Operational Reality](https://supersuit.wiki/concepts/operational-reality): What your files should contain
 - Ramp: Glass: A custom agent viewer at scale
-- [Supersuit Up Workshop](https://supersuit.wiki/paos/supersuit-up-workshop): Where we walk you through setting this up
+- [Supersuit Up Workshop](https://wiki.supersuit.co/start-here/install): Where we walk you through setting this up
 - [Claude Code Setup](/reference/tools/claude-code): The default harness we teach
 - [Hermes Setup](https://supersuit.wiki/reference/tools/hermes): A second harness to prove your skills transfer
 - [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning): Why minimal harnesses keep winning and kitchen-sink defaults are the failure mode

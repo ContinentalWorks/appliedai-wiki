@@ -53,7 +53,7 @@ correctness along with the instructions.
 
 A complete playable harness experience usually contains:
 
-- **One or more `SKILL.md` files** in `.agents/skills/<name>/` that define the flow. Each skill is a structured set of instructions the [Chief of Agents](https://supersuit.wiki/concepts/chief-of-agents) follows when invoked.
+- **One or more `SKILL.md` files** in `.agents/skills/<name>/` that define the flow. Each skill is a structured set of instructions the [Chief of Agents](https://wiki.supersuit.co/concepts/chief-of-agents) follows when invoked.
 - **Artifact templates.** Placeholder Markdown files representing the structured output the experience produces (a V/TO, a deal memo, a character assessment, a project spec).
 - **Optional hooks, scripts, configs.** For experiences that need event-driven behavior, custom tool calls, or harness-specific extensions.
 - **A README.** Explains what the experience does, how to install it, how to invoke it, what artifacts it produces.
@@ -165,7 +165,7 @@ If you have ever wanted to ship a piece of cognitive software that helps people 
 - [Skill Files](/concepts/skill-files): the structural unit a playable harness experience is mostly composed of.
 - [Agentic Harness](https://supersuit.wiki/concepts/agentic-harness): the console that loads the cartridge.
 - [Agentic Harness Chatbox](https://supersuit.wiki/concepts/agentic-harness-chatbox): the input field the experience drives the user through.
-- [Chief of Agents](https://supersuit.wiki/concepts/chief-of-agents): the model executing the experience's instructions.
+- [Chief of Agents](https://wiki.supersuit.co/concepts/chief-of-agents): the model executing the experience's instructions.
 - [Hypercontext](https://supersuit.wiki/concepts/hypercontext): the substrate that turns a generic experience into a personalized one when loaded under it.
 - [Company Context Layer](https://supersuit.wiki/concepts/company-context-layer): the company-shaped equivalent of personal hypercontext.
 - [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is): a workspace shape that is itself a long-running playable harness experience.
