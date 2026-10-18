@@ -59,4 +59,4 @@ The visionary is not choosing who is worthy. They are choosing what the framewor
 - [Trust Attaches to Operators With a Named Framework](/perspectives/trust-attaches-to-operators-with-a-named-framework): the opinion that filters adopters is the same one that earns them
 - [Simple Harnesses Keep Winning](/perspectives/simple-harnesses-keep-winning): the architecture that stays small enough to refuse
 - [Golden](/concepts/golden): the human-blessed standard a patch is held to
-- [Choosing A Platform Is Choosing Your People](https://supersuit.wiki/perspectives/choosing-a-platform-is-choosing-your-people): the same question from the adopter's side
+- [Choosing A Platform Is Choosing Your People](https://wiki.supersuit.co/perspectives/choosing-a-platform-is-choosing-your-people): the same question from the adopter's side

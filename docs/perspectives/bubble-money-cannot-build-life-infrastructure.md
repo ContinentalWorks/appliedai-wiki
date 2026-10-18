@@ -15,7 +15,7 @@ image: "/img/comics/bubble-money-cannot-build-life-infrastructure.webp"
 
 ## Life infrastructure cannot be shipped
 
-**[Life infrastructure](https://supersuit.wiki/concepts/life-infrastructure)** is software a person's whole life runs on. Not a tool they try, a layer they route their judgment, their context, and their relationships through, and keep routing through for years. The definition is argued on the category's own wiki; what matters here is the consequence for anyone trying to build one.
+**[Life infrastructure](https://wiki.supersuit.co/concepts/life-infrastructure)** is software a person's whole life runs on. Not a tool they try, a layer they route their judgment, their context, and their relationships through, and keep routing through for years. The definition is argued on the category's own wiki; what matters here is the consequence for anyone trying to build one.
 
 A thing with that job cannot be launched. It has to accumulate: their material, their corrections, their preferences, their trust, deposited over months of ordinary use until removing it would cost them something real.
 

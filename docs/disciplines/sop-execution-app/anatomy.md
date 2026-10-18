@@ -47,7 +47,7 @@ When multiple users share the same function (several people in the same role at 
 
 The SOP pages and their forms are what the user sees. The agents are what runs when the form is submitted.
 
-Each SOP page wires its form to the underlying skill file from the hyperagent's [Supersuit](https://supersuit.wiki/concepts/supersuit). When the user presses Run, an agent loads the relevant PAOS context (the relevant person file, the relevant artifacts, recent meeting transcripts), reads the form inputs, executes the skill file workflow against them, and lands the output on the same page. The user never sees the agent work directly. They see the form, they fill it in, they press Run, and the output appears.
+Each SOP page wires its form to the underlying skill file from the hyperagent's [Supersuit](https://wiki.supersuit.co/concepts/supersuit). When the user presses Run, an agent loads the relevant PAOS context (the relevant person file, the relevant artifacts, recent meeting transcripts), reads the form inputs, executes the skill file workflow against them, and lands the output on the same page. The user never sees the agent work directly. They see the form, they fill it in, they press Run, and the output appears.
 
 The agent backend is what makes an SOP Execution App different from a form linked to a template. A form linked to a template produces the same output every time regardless of context. An agent backend reads the hyperagent's actual situation (the named person's prior interaction history, the named property's prior underwrites, the hyperagent's current strategic priorities) and produces output calibrated to that situation. The skill file is the spec for that behavior; the PAOS is the context the skill file gets to read.
 
@@ -70,7 +70,7 @@ The corporate-scale validation of this pattern is Ramp's Glass + Dojo architectu
 **Inside the wiki**
 
 - [What it is](/disciplines/sop-execution-app/what-it-is): the overview page for the SOP Execution App.
-- [The Supersuit (PAOS)](https://supersuit.wiki/paos/what-it-is): the canonical capability the SOP Execution App is a deployment artifact for. The [Supersuit](https://supersuit.wiki/concepts/supersuit) is where the skill files behind every button get developed and battle-tested first.
+- [The Supersuit (PAOS)](https://supersuit.wiki/paos/what-it-is): the canonical capability the SOP Execution App is a deployment artifact for. The [Supersuit](https://wiki.supersuit.co/concepts/supersuit) is where the skill files behind every button get developed and battle-tested first.
 - [Skill File First, App Second](https://appliedai.wiki/concepts/skill-file-first-app-second): the development order. Every button in an SOP Execution App must be backed by a proven skill file in the hyperagent's PAOS.
 - [When to get one built](/disciplines/sop-execution-app/when-to-get-one): the conditions that justify commissioning one.
 - [How to get one built](/disciplines/sop-execution-app/how-to-get-one-built): finding an engineer and running the engagement.

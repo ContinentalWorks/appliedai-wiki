@@ -32,7 +32,7 @@ Markdown gives you this for free. Every embedded image has an alt text field. It
 - A blind reader gets a full description of what the image actually depicts.
 - A future agent (or you, six months from now) gets the prompt-readable form of the artifact, in the same file as the artifact, with full version history attached.
 
-The wiki's own comic workflow already runs this way. Every article hero on a [SupersuitUp wiki](https://supersuit.wiki) carries alt text detailed enough to reproduce the comic from scratch: panel count, panel labels, key visual elements per panel, captions verbatim, title bar, footer bar. See [reference/graphic-style](/reference/graphic-style) for the policy. The pattern generalizes: any AI-generated image you ship to a markdown surface should store its generative prompt in the alt text. No separate file. No prompt registry to maintain. The image and its source live in the same `.md`, and git tracks both.
+The wiki's own comic workflow already runs this way. Every article hero on a [SupersuitUp wiki](https://wiki.supersuit.co/) carries alt text detailed enough to reproduce the comic from scratch: panel count, panel labels, key visual elements per panel, captions verbatim, title bar, footer bar. See [reference/graphic-style](/reference/graphic-style) for the policy. The pattern generalizes: any AI-generated image you ship to a markdown surface should store its generative prompt in the alt text. No separate file. No prompt registry to maintain. The image and its source live in the same `.md`, and git tracks both.
 
 For non-markdown surfaces, the equivalent move is a sidecar file: `image.png` next to `image.prompt.txt`, both checked in.
 

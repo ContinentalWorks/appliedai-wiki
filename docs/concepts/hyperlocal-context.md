@@ -89,4 +89,4 @@ Promoting is cheap and demoting is expensive. A local rule that proves general i
 - [Memory Files](/concepts/memory-files): the pile this rule replaces, and where each kind of remembered thing belongs.
 - [Context Engineering](/disciplines/context-engineering): the discipline this placement rule belongs to.
 - [Discoverability Is a Just-in-Time Problem](/perspectives/discoverability-is-a-just-in-time-problem): why a pointer has to arrive at the moment of use.
-- [Personal Agentic Edge](https://supersuit.wiki/concepts/personal-agentic-edge): what the context is and why it is yours. This page covers where it sits.
+- [Personal Agentic Edge](https://wiki.supersuit.co/concepts/personal-agentic-edge): what the context is and why it is yours. This page covers where it sits.

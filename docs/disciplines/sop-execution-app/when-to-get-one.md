@@ -13,7 +13,7 @@ description: "The signs that a hyperagent running a PAOS should commission an SO
 
 ## The default is the terminal
 
-If you are running your [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is), the terminal is already your most-leveraged interface. You type a sentence in the [agentic harness chatbox](https://supersuit.wiki/concepts/agentic-harness-chatbox), the [Chief of Agents](https://supersuit.wiki/concepts/chief-of-agents) fires the right [skill file](https://appliedai.wiki/concepts/skill-files), and the work ships. Adding a custom web app on top adds a build cost and a maintenance cost. That cost is worth paying when the conditions below hold; otherwise, the terminal is fine.
+If you are running your [Personal Agentic OS](https://supersuit.wiki/paos/what-it-is), the terminal is already your most-leveraged interface. You type a sentence in the [agentic harness chatbox](https://supersuit.wiki/concepts/agentic-harness-chatbox), the [Chief of Agents](https://wiki.supersuit.co/concepts/chief-of-agents) fires the right [skill file](https://appliedai.wiki/concepts/skill-files), and the work ships. Adding a custom web app on top adds a build cost and a maintenance cost. That cost is worth paying when the conditions below hold; otherwise, the terminal is fine.
 
 ## When it is worth getting one built
 

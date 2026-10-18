@@ -14,7 +14,7 @@ description: "A custom web app that exposes a hyperagent's battle-tested digital
 
 An **SOP Execution App** is a custom web application built around the [hyperagent](https://supersuit.wiki/concepts/hyperagent)'s curated [digital SOPs](https://supersuit.wiki/concepts/digital-sops). It is not a single button dashboard. It is a multi-tab web app where every SOP gets its own page, with a structured form for the inputs the skill needs (typed fields, voice-to-text capture, file uploads, dropdowns that read from PAOS context like `people/` or `artifacts/`). The agents run on the backend. The user opens the tab they want, fills in the form, hits Run, and the output lands on the same page.
 
-The app is built by an [applied AI engineer](/disciplines/sop-execution-app/how-to-get-one-built) for a specific principal. The principal's voice and the relevant slice of their team's shared context get loaded in. The SOPs are scoped to the work the principal actually does. There is no terminal, no markdown to maintain, no harness to install. The SOPs the app fires, however, must have been developed and battle-tested first, inside the hyperagent's [Supersuit](https://supersuit.wiki/concepts/supersuit).
+The app is built by an [applied AI engineer](/disciplines/sop-execution-app/how-to-get-one-built) for a specific principal. The principal's voice and the relevant slice of their team's shared context get loaded in. The SOPs are scoped to the work the principal actually does. There is no terminal, no markdown to maintain, no harness to install. The SOPs the app fires, however, must have been developed and battle-tested first, inside the hyperagent's [Supersuit](https://wiki.supersuit.co/concepts/supersuit).
 
 ## What it is not
 
