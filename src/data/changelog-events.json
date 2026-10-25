@@ -1,6 +1,146 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/hyperlocal-context@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "concepts/hyperlocal-context",
+      "routePath": "/concepts/hyperlocal-context",
+      "section": "concepts",
+      "title": "Hyperlocal Context",
+      "description": "A placement rule for everything an agent has to know: each piece of context lives beside the work it is about, and the agent reads it only when that work comes up. One memory that only grows is read whole on every turn, and that is where it fails."
+    },
+    {
+      "id": "concepts/playable-harness-experience@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "concepts/playable-harness-experience",
+      "routePath": "/concepts/playable-harness-experience",
+      "section": "concepts",
+      "title": "Playable Harness Experience",
+      "description": "A shippable bundle of skill files, artifact templates, and intended flow that runs inside an agentic harness. Designed once, shared on GitHub, played by anyone whose harness can load it. The new unit of distributable interactive software."
+    },
+    {
+      "id": "concepts/skill-files@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "concepts/skill-files",
+      "routePath": "/concepts/skill-files",
+      "section": "concepts",
+      "title": "Skill Files",
+      "description": "On-demand workflow files the agent invokes when triggered. Each skill is a markdown SOP with a name, a trigger, and steps. Episodic, parametric, called. The library of procedures the agent runs on your behalf."
+    },
+    {
+      "id": "concepts/superprompt@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "concepts/superprompt",
+      "routePath": "/concepts/superprompt",
+      "section": "concepts",
+      "title": "Superprompt",
+      "description": "A regular prompt is the trigger. A superprompt is the trigger plus the activated system: the always-loaded baseline, the files tagged for the job, the invoked skill files, and the utterance, which is the only part supplied in the moment."
+    },
+    {
+      "id": "disciplines/sop-execution-app/anatomy@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "disciplines/sop-execution-app/anatomy",
+      "routePath": "/disciplines/sop-execution-app/anatomy",
+      "section": "disciplines",
+      "title": "Anatomy",
+      "description": "The four load-bearing components inside every SOP Execution App: a page per SOP with a form per page, role-scoped memory drawn from the team layer, role-scoped views, and a backend of agents."
+    },
+    {
+      "id": "disciplines/sop-execution-app/how-to-get-one-built@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "disciplines/sop-execution-app/how-to-get-one-built",
+      "routePath": "/disciplines/sop-execution-app/how-to-get-one-built",
+      "section": "disciplines",
+      "title": "How to Get One Built",
+      "description": "Five stages: find the right engineer, brief them well, ship v0.1 in the first session, iterate weekly, and know what kills the engagement."
+    },
+    {
+      "id": "disciplines/sop-execution-app/what-it-is@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "disciplines/sop-execution-app/what-it-is",
+      "routePath": "/disciplines/sop-execution-app/what-it-is",
+      "section": "disciplines",
+      "title": "What it is",
+      "description": "A custom web app that exposes a hyperagent's battle-tested digital SOPs as form-driven pages, one tab per SOP. A deployment artifact downstream of the Supersuit, not a replacement for it."
+    },
+    {
+      "id": "disciplines/sop-execution-app/when-to-get-one@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "disciplines/sop-execution-app/when-to-get-one",
+      "routePath": "/disciplines/sop-execution-app/when-to-get-one",
+      "section": "disciplines",
+      "title": "When to Get One Built",
+      "description": "The signs that a hyperagent running a PAOS should commission an SOP Execution App. The default is to keep working in the terminal; the app is worth the engineering only when specific conditions hold."
+    },
+    {
+      "id": "perspectives/be-choosy-about-who-co-evolves-your-framework@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "perspectives/be-choosy-about-who-co-evolves-your-framework",
+      "routePath": "/perspectives/be-choosy-about-who-co-evolves-your-framework",
+      "section": "perspectives",
+      "title": "Be Choosy About Who Co-Evolves Your Framework",
+      "description": "A framework you want others to adopt and co-evolve is shaped by whoever you let in. Every adopter's bug report is taken on faith and every pull request is taken on average, so the wrong adopters cost you bloat, and no software can be everything to everyone."
+    },
+    {
+      "id": "perspectives/bubble-money-cannot-build-life-infrastructure@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "perspectives/bubble-money-cannot-build-life-infrastructure",
+      "routePath": "/perspectives/bubble-money-cannot-build-life-infrastructure",
+      "section": "perspectives",
+      "title": "Bubble Money Cannot Build Life Infrastructure",
+      "description": "The software worth building is life infrastructure, and it only grows one transformed person at a time. Capital that needs a return inside this cycle cannot wait for that, so it funds gimmicks and overclaims instead. Whatever lasts will have been built outside the bubble."
+    },
+    {
+      "id": "perspectives/the-harness-is-the-thing-worth-learning@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "perspectives/the-harness-is-the-thing-worth-learning",
+      "routePath": "/perspectives/the-harness-is-the-thing-worth-learning",
+      "section": "perspectives",
+      "title": "The Harness Is the Thing Worth Learning",
+      "description": "Agentic harnesses (Claude Code, Hermes, Codex) are primitives. Vendor wrappers over them (Claude Cowork, opinionated desktop apps) hide those primitives to look friendlier. We teach the primitives,..."
+    },
+    {
+      "id": "perspectives/the-self-improving-business-is-a-bad-meme@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "perspectives/the-self-improving-business-is-a-bad-meme",
+      "routePath": "/perspectives/the-self-improving-business-is-a-bad-meme",
+      "section": "perspectives",
+      "title": "The Self-Improving Business Is a Bad Meme",
+      "description": "A direct rebuttal to the recursive-self-improving-business framing. Workflows can self-update; businesses do not self-improve. The human is the improver. Implementers who consult from any other premise ship the wrong shape."
+    },
+    {
+      "id": "playbooks/version-control-your-prompts@c0942107acb9a8b189ee988a8c993866e6aa764c",
+      "type": "updated",
+      "date": "2026-10-18T19:16:53-04:00",
+      "docKey": "playbooks/version-control-your-prompts",
+      "routePath": "/playbooks/version-control-your-prompts",
+      "section": "playbooks",
+      "title": "Version-Control Your Prompts",
+      "description": "Every AI prompt that produced something worth keeping is source code. Store it in a file you own, port it across models, sharpen it over time. For image prompts, alt text is the storage vector that pulls double duty as accessibility."
+    },
+    {
+      "id": "concepts/coding-harness-apps@983be72d11bbef762eae8e62d0be205f62217ec7",
+      "type": "updated",
+      "date": "2026-10-15T18:50:09-04:00",
+      "docKey": "concepts/coding-harness-apps",
+      "routePath": "/concepts/coding-harness-apps",
+      "section": "concepts",
+      "title": "Coding Harness Apps",
+      "description": "An app whose runtime is an agentic harness and whose state is version-controlled files on disk, with an interface that exists to collect the one thing the harness cannot do itself. Coding harness apps, or CHAPPS. The harness runs the pipeline, summons a real interface when it needs your hands, eyes, or voice, then takes the data back and keeps going."
+    },
+    {
       "id": "concepts/in-context-learning@48d01a047fc248a7fe3a3e0c973a3054a469a925",
       "type": "updated",
       "date": "2026-10-15T12:21:12-04:00",
@@ -15773,6 +15913,70 @@
     }
   ],
   "pageDates": {
+    "concepts/hyperlocal-context": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-10-13T10:01:56-04:00"
+    },
+    "concepts/playable-harness-experience": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-25T10:30:31-05:00"
+    },
+    "concepts/skill-files": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-23T23:46:32-05:00"
+    },
+    "concepts/superprompt": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-09-22T11:16:37-04:00"
+    },
+    "disciplines/sop-execution-app/anatomy": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/how-to-get-one-built": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/index": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/what-it-is": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "disciplines/sop-execution-app/when-to-get-one": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-27T16:07:58-05:00"
+    },
+    "perspectives/be-choosy-about-who-co-evolves-your-framework": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-09-13T08:19:43-05:00"
+    },
+    "perspectives/bubble-money-cannot-build-life-infrastructure": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-09-14T17:54:56-05:00"
+    },
+    "perspectives/the-harness-is-the-thing-worth-learning": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-18T21:05:01-05:00"
+    },
+    "perspectives/the-self-improving-business-is-a-bad-meme": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-27T12:27:11-05:00"
+    },
+    "playbooks/version-control-your-prompts": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-23T20:01:38-05:00"
+    },
+    "roles/index": {
+      "updated": "2026-10-18T19:16:53-04:00",
+      "created": "2026-05-15T11:10:04-05:00"
+    },
+    "concepts/coding-harness-apps": {
+      "updated": "2026-10-15T18:50:09-04:00",
+      "created": "2026-08-12T08:59:21-05:00"
+    },
     "concepts/in-context-learning": {
       "updated": "2026-10-15T12:21:12-04:00",
       "created": "2026-07-20T07:59:12-05:00"
@@ -15780,14 +15984,6 @@
     "concepts/living-template-app": {
       "updated": "2026-10-14T16:58:43-04:00",
       "created": "2026-09-30T19:36:23-05:00"
-    },
-    "perspectives/be-choosy-about-who-co-evolves-your-framework": {
-      "updated": "2026-10-14T16:58:43-04:00",
-      "created": "2026-09-13T08:19:43-05:00"
-    },
-    "concepts/hyperlocal-context": {
-      "updated": "2026-10-13T10:11:28-04:00",
-      "created": "2026-10-13T10:01:56-04:00"
     },
     "concepts/hyperlocal-skills": {
       "updated": "2026-10-13T10:01:56-04:00",
@@ -15825,14 +16021,6 @@
       "updated": "2026-09-30T19:36:23-05:00",
       "created": "2026-09-12T23:38:50-05:00"
     },
-    "concepts/playable-harness-experience": {
-      "updated": "2026-09-30T19:36:23-05:00",
-      "created": "2026-05-25T10:30:31-05:00"
-    },
-    "concepts/coding-harness-apps": {
-      "updated": "2026-09-29T08:28:57-05:00",
-      "created": "2026-08-12T08:59:21-05:00"
-    },
     "concepts/gates-and-hooks": {
       "updated": "2026-09-24T17:53:38-04:00",
       "created": "2026-09-12T18:12:13-05:00"
@@ -15844,14 +16032,6 @@
     "playbooks/run-ci-on-a-machine-your-agents-share": {
       "updated": "2026-09-24T17:53:38-04:00",
       "created": "2026-09-24T17:53:38-04:00"
-    },
-    "concepts/superprompt": {
-      "updated": "2026-09-22T11:16:37-04:00",
-      "created": "2026-09-22T11:16:37-04:00"
-    },
-    "perspectives/bubble-money-cannot-build-life-infrastructure": {
-      "updated": "2026-09-19T12:38:46-04:00",
-      "created": "2026-09-14T17:54:56-05:00"
     },
     "perspectives/pain-tolerance-for-drudgery-is-a-bug": {
       "updated": "2026-09-19T12:38:46-04:00",
@@ -15884,14 +16064,6 @@
     "concepts/prompt-guards": {
       "updated": "2026-09-12T18:12:13-05:00",
       "created": "2026-07-26T18:18:01-05:00"
-    },
-    "roles/index": {
-      "updated": "2026-09-12T17:03:11-05:00",
-      "created": "2026-05-15T11:10:04-05:00"
-    },
-    "concepts/skill-files": {
-      "updated": "2026-09-09T15:19:57-04:00",
-      "created": "2026-05-23T23:46:32-05:00"
     },
     "concepts/hyperdocumented-skills": {
       "updated": "2026-09-02T11:11:02-05:00",
@@ -16165,10 +16337,6 @@
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-05-27T16:07:58-05:00"
     },
-    "disciplines/sop-execution-app/what-it-is": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-05-27T16:07:58-05:00"
-    },
     "disciplines/spec-writing": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-05-15T11:10:04-05:00"
@@ -16405,10 +16573,6 @@
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-06-24T13:58:32-05:00"
     },
-    "perspectives/the-self-improving-business-is-a-bad-meme": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-05-27T12:27:11-05:00"
-    },
     "perspectives/there-is-no-standing-still-anymore": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-05-15T11:35:52-05:00"
@@ -16528,10 +16692,6 @@
     "playbooks/picking-an-ai-services-market": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-06-07T11:26:57-05:00"
-    },
-    "playbooks/version-control-your-prompts": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-05-23T20:01:38-05:00"
     },
     "playbooks/workshop-blueprint-project-partnership-ladder": {
       "updated": "2026-08-29T07:29:14-04:00",
@@ -16653,10 +16813,6 @@
       "updated": "2026-08-12T17:54:33-05:00",
       "created": "2026-05-18T21:05:01-05:00"
     },
-    "perspectives/the-harness-is-the-thing-worth-learning": {
-      "updated": "2026-08-12T17:54:33-05:00",
-      "created": "2026-05-18T21:05:01-05:00"
-    },
     "disciplines/evals": {
       "updated": "2026-08-12T12:12:07-05:00",
       "created": "2026-05-15T11:45:23-05:00"
@@ -16668,10 +16824,6 @@
     "concepts/skill-file-first-app-second": {
       "updated": "2026-08-12T08:59:21-05:00",
       "created": "2026-05-15T11:10:04-05:00"
-    },
-    "disciplines/sop-execution-app/anatomy": {
-      "updated": "2026-08-09T20:13:41-05:00",
-      "created": "2026-05-27T16:07:58-05:00"
     },
     "engagement-patterns/pe-fund-cascade": {
       "updated": "2026-08-09T20:12:39-05:00",
@@ -16965,10 +17117,6 @@
       "updated": "2026-08-09T19:58:40-05:00",
       "created": "2026-05-15T11:35:52-05:00"
     },
-    "disciplines/sop-execution-app/index": {
-      "updated": "2026-08-09T19:58:40-05:00",
-      "created": "2026-05-27T16:07:58-05:00"
-    },
     "perspectives/index": {
       "updated": "2026-08-09T19:56:58-05:00",
       "created": "2026-05-18T21:05:01-05:00"
@@ -16980,14 +17128,6 @@
     "concepts/clips": {
       "updated": "2026-08-09T18:54:49-05:00",
       "created": "2026-05-18T21:05:01-05:00"
-    },
-    "disciplines/sop-execution-app/how-to-get-one-built": {
-      "updated": "2026-08-09T18:54:49-05:00",
-      "created": "2026-05-27T16:07:58-05:00"
-    },
-    "disciplines/sop-execution-app/when-to-get-one": {
-      "updated": "2026-08-09T18:54:49-05:00",
-      "created": "2026-05-27T16:07:58-05:00"
     },
     "disciplines/ontology-as-substrate": {
       "updated": "2026-07-25T21:47:06-05:00",
