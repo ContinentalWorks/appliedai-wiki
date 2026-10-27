@@ -7,6 +7,10 @@
   "projectName": "appliedai-wiki",
   "copyright": "appliedai.wiki",
   "noindex": true,
+  "gate": {
+    "type": "freedom-account",
+    "mode": "act"
+  },
   "description": "Curated ground truth for practitioners applying AI to businesses at the highest leverage possible.",
   "hero": {
     "stylePack": "warm-editorial-titled",

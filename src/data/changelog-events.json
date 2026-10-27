@@ -1,6 +1,16 @@
 {
   "changeEvents": [
     {
+      "id": "perspectives/refactor-in-cycles-not-up-front@019cd0908d703415d62d1e5b3253064e052255fe",
+      "type": "new",
+      "date": "2026-10-24T19:28:32-07:00",
+      "docKey": "perspectives/refactor-in-cycles-not-up-front",
+      "routePath": "/perspectives/refactor-in-cycles-not-up-front",
+      "section": "perspectives",
+      "title": "Refactor in Cycles, Not Up Front",
+      "description": "When building is nearly free, over-engineering at the start is a bet on patterns you have not seen yet. Build what your intuition says, then refactor and delete in recurring cycles, once the patterns that work have shown themselves."
+    },
+    {
       "id": "concepts/hyperlocal-context@c0942107acb9a8b189ee988a8c993866e6aa764c",
       "type": "updated",
       "date": "2026-10-18T19:16:53-04:00",
@@ -15913,6 +15923,10 @@
     }
   ],
   "pageDates": {
+    "perspectives/refactor-in-cycles-not-up-front": {
+      "updated": "2026-10-24T19:28:32-07:00",
+      "created": "2026-10-24T19:28:32-07:00"
+    },
     "concepts/hyperlocal-context": {
       "updated": "2026-10-18T19:16:53-04:00",
       "created": "2026-10-13T10:01:56-04:00"
