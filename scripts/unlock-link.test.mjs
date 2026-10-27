@@ -217,6 +217,17 @@ test("a wiki with the signed-route share is detected ahead of the slug file", ()
   assert.equal(m.mint, "/s/mint");
 });
 
+test("a wiki whose middleware is the preset's is detected as signed-route, and one that is not is not", () => {
+  const root = mkdtempSync(join(tmpdir(), "wiki-"));
+  writeFileSync(join(root, "middleware.ts"), "export default function middleware() {}");
+  assert.equal(shareMechanism(root), null, "claimed a share layer for a middleware that has none");
+  writeFileSync(join(root, "middleware.ts"), "import { createMiddleware } from '@supersuit/docusaurus-preset-wiki/middleware';");
+  const m = shareMechanism(root);
+  assert.equal(m.kind, "signed-route");
+  assert.equal(m.mint, "/s/mint");
+  assert.equal(m.file, "middleware.ts");
+});
+
 test("a keyed page on a signed-route wiki is still UNLOCKED by decide; the focused link is minted after", () => {
   const share = { kind: "signed-route", prefix: "/s/", mint: "/s/mint", file: "src/share/handleShare.ts" };
   const r = decide(PAGE, { param: "key", password: "pw", share }, { bare: shut, keyed: cookieRedirect });

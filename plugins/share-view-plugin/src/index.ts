@@ -7,7 +7,7 @@ import { focusPage } from './focus';
 // ---------------------------------------------------------------------------
 // Emits a CHROME-LESS mirror of every built page at /share-view/<route>/ for
 // single-page sharing out of a gated wiki. The edge middleware rewrites a
-// genuine /s/<sig>/<route> request here (src/share/handleShare.ts), so a share
+// genuine /s/<sig>/<route> request here (handleShare in @supersuit/docusaurus-preset-wiki/middleware), so a share
 // recipient reads ONE page as a dedicated, scriptless document: no navbar, no
 // sidebar, no table of contents, no links into the rest of the wiki.
 //

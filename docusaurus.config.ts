@@ -37,13 +37,6 @@ const config: Config = {
     ? [{ tagName: 'meta', attributes: { name: 'robots', content: 'noindex, nofollow' } }]
     : [],
 
-  customFields: {
-    // Read at build time, exposed to the share-link button
-    // (src/components/ShareButton.tsx) and any client gate. Set on the Vercel
-    // project as WIKI_PASSWORD. Without this, "copy link" copies a URL the
-    // gate has already stripped the key from, and every shared link 401s.
-    wikiPassword: process.env.WIKI_PASSWORD ?? '',
-  },
 
   plugins: [
     './plugins/search-plugin',

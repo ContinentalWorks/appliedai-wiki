@@ -26,7 +26,7 @@
     "test:provenance": "node scripts/test-image-provenance.mjs",
     "template:version": "node scripts/check-template-version.mjs",
     "test:template-version": "node --test scripts/check-template-version.test.mjs",
-    "test:share": "node --import ./scripts/ts-resolve-hooks.mjs --test src/share/*.test.ts plugins/share-view-plugin/src/*.test.ts",
+    "test:share": "node --import ./scripts/ts-resolve-hooks.mjs --test plugins/share-view-plugin/src/*.test.ts",
     "test:retired-words": "node --test scripts/check-retired-words.test.mjs",
     "prepare": "node scripts/install-hooks.mjs",
     "refresh:dates": "node --import ./scripts/ts-resolve-hooks.mjs scripts/refresh-dates.mjs"

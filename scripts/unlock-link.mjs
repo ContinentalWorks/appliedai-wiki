@@ -102,6 +102,12 @@ export function shareMechanism(root = ROOT) {
   if (existsSync(signed)) {
     return { kind: "signed-route", prefix: "/s/", mint: "/s/mint", file: "src/share/handleShare.ts", path: signed };
   }
+  // The same share layer from the preset (@supersuit/docusaurus-preset-wiki/middleware), which
+  // replaced the copied src/share/ on 2026-10-27: the edge answers /s/mint exactly as before.
+  const mw = join(root, "middleware.ts");
+  if (existsSync(mw) && readFileSync(mw, "utf8").includes("@supersuit/docusaurus-preset-wiki/middleware")) {
+    return { kind: "signed-route", prefix: "/s/", mint: "/s/mint", file: "middleware.ts", path: mw };
+  }
   const file = join(root, "src", "auth", "shareRoutes.ts");
   if (!existsSync(file)) return null;
   return { kind: "committed-slug", prefix: "/s/", file: "src/auth/shareRoutes.ts", path: file };
