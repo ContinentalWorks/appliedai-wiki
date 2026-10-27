@@ -1,13 +1,17 @@
-// POSTURE (2026-10-27, Gary): Continental Works' wiki, PUBLIC TO READ. The Supersuit account
-// (Freedom-account gate, sign-in at freedom.continentalworks.ai) is asked for only to ACT:
-// minting a share or forward superlink from an article (preset 1.22.0 act mode). It needs
-// WIKI_PASS_SECRET and WIKI_GATE_SECRET on the Vercel project, the same values as wiki.supersuit.co's.
+// POSTURE (2026-10-27, Gary): Continental Works' wiki, MEMBERS ONLY. Every page sits behind the
+// Supersuit account (Freedom-account gate, read mode: sign-in at freedom.continentalworks.ai).
+// One-page share links (/s/<sig>/<route>) still open a single page for anyone with no sign-in:
+// the preset's share layer answers a genuine address before the gate refuses. It needs
+// WIKI_PASS_SECRET and WIKI_GATE_SECRET on the Vercel project; a WIKI_PASSWORD opens nothing.
+//
+// `openPaths` narrows the gate's open set to /skills/ and /generators/ only, because the default
+// also leaves .md, .txt and /llms-full.txt open, and /llms-full.txt is every page in one file.
 //
 // Vercel Routing Middleware from the preset: the family bot-block, the one-page share layer,
 // then the account gate.
 import { createMiddleware, createFreedomAccountGate } from '@supersuit/docusaurus-preset-wiki/middleware';
 
-const gate = createFreedomAccountGate({ mode: 'act' });
+const gate = createFreedomAccountGate({ openPaths: /^\/(skills\/|generators\/)/ });
 
 export default createMiddleware({ gate });
 

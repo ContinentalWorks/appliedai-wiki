@@ -9,7 +9,7 @@
   "noindex": true,
   "gate": {
     "type": "freedom-account",
-    "mode": "act"
+    "openPaths": "^/(skills/|generators/)"
   },
   "description": "Curated ground truth for practitioners applying AI to businesses at the highest leverage possible.",
   "hero": {
