@@ -3,7 +3,7 @@ import PageDates from '@site/src/components/PageDates';
 // The package's Share button (and its client, src/share/mintAndCopy.ts in the preset), so this
 // wiki's button follows the edge it runs: in act mode a signed-out tap goes to the Supersuit
 // sign-in and the mint finishes on return (?act=share). This wiki uses theme-classic rather than
-// the preset's theme, and the package exports no theme subpath, hence the path through @site.
+// the preset's theme, so it imports the button from the package's own export (preset >= 1.24.0).
 import ShareButton from '@supersuit/docusaurus-preset-wiki/share-button';
 
 // The article meta row: Created / Updated dates and the share button, directly
