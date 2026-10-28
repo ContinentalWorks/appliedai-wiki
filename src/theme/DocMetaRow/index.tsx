@@ -4,7 +4,7 @@ import PageDates from '@site/src/components/PageDates';
 // wiki's button follows the edge it runs: in act mode a signed-out tap goes to the Supersuit
 // sign-in and the mint finishes on return (?act=share). This wiki uses theme-classic rather than
 // the preset's theme, and the package exports no theme subpath, hence the path through @site.
-import ShareButton from '@site/node_modules/@supersuit/docusaurus-preset-wiki/lib/theme/ShareButton';
+import ShareButton from '@supersuit/docusaurus-preset-wiki/share-button';
 
 // The article meta row: Created / Updated dates and the share button, directly
 // under the H1. It is rendered IN THE TREE, never portalled into the DOM after
