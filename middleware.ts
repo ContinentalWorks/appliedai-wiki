@@ -5,7 +5,9 @@
 // WIKI_PASS_SECRET and WIKI_GATE_SECRET on the Vercel project; a WIKI_PASSWORD opens nothing.
 //
 // `openPaths` narrows the gate's open set to /skills/ and /generators/ only, because the default
-// also leaves .md, .txt and /llms-full.txt open, and /llms-full.txt is every page in one file.
+// also leaves .md and .txt open. The bulk exports (/llms.txt, /llms-full.txt,
+// /search-index.json), each every page in one file, are keyed by the gate itself (preset
+// 1.23.0), and the matcher below sends all three to it (docusaurus-preset-wiki#7).
 //
 // Vercel Routing Middleware from the preset: the family bot-block, the one-page share layer,
 // then the account gate.
@@ -28,7 +30,7 @@ export const config = {
   // Note the `.md` extension is NOT in the asset list below, so these paths would
   // otherwise be matched and blocked. Do not remove these two exclusions.
   matcher: [
-    '/((?!assets/|img/|skills/|generators/|favicon\\.ico|robots\\.txt|sitemap\\.xml|manifest\\.json|.*\\.(?:js|css|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|map|json|xml)$).*)',
+    '/((?!assets/|img/|skills/|generators/|favicon\\.ico|robots\\.txt|sitemap\\.xml|manifest\\.json|(?!search-index\\.json$).*\\.(?:js|css|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|map|json|webmanifest|xml)$).*)',
   ],
   runtime: 'edge',
 };
