@@ -61,7 +61,7 @@ Image tools got there early too. ComfyUI embeds its whole node workflow in the P
 
 ## The format
 
-The [recipe standard](https://hypercontext.wiki/standards/recipe) defines the file: `<asset filename>.recipe.json`, written beside the asset, with fields for the asset, the generator, when it was generated, the mode, the provider and model, the prompt, the inputs, and an optional verdict. A tool that writes it lets any other tool, or any agent, read back how an asset was made without knowing which tool made it. Supersuit's image skill already writes one beside every image it generates.
+The [recipe standard](https://hypercontext.wiki/standards/recipe) defines the file: `<asset filename>.recipe.json`, written beside the asset, with fields for the asset, the generator, when it was generated, the mode, the provider and model, the prompt, the inputs, and an optional verdict. A tool that writes it lets any other tool, or any agent, read back how an asset was made without knowing which tool made it. A good image tool writes one beside every image it makes, without being asked.
 
 ## Further Reading
 
