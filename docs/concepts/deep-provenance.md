@@ -50,7 +50,7 @@ That is the asymmetry that collapsed. The tracking did not get cheaper. **Acting
 
 ## What a recipe actually records
 
-A provenance recipe travels beside its artifact and names what produced it:
+A provenance recipe travels beside its artifact and names what produced it. For a single generated asset, with the human's verdict added, this is a [recipe](/concepts/recipe) in the narrow sense, and it has a page of its own:
 
 - **Inputs by path**, not by description. A source that cannot be resolved is not a citation.
 - **Parameters by hash.** The spec, brief, or configuration that shaped this particular artifact, fingerprinted so a change is detectable rather than remembered.
@@ -80,6 +80,7 @@ The answer is the same one that works everywhere else in this craft. Prefer fact
 
 ## Further Reading
 
+- [Recipe](/concepts/recipe) is this practice applied to one generated asset: the input, the ordered references, the exact prompt, the model, and the verdict that teaches taste.
 - [The Corpus and the Projection](/concepts/the-corpus-and-the-projection) separates durable inputs from the cheap spec that renders them. Deep provenance is how you know which knob to turn.
 - [Golden Processes](/concepts/golden-processes) covers promoting a proven process into a repeatable one, which is where recipes start paying rent.
 - [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing) is the discipline provenance enables: you cannot fix the generator if you cannot tell which outputs it produced.

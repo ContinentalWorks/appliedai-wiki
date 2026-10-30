@@ -76,6 +76,7 @@ If the curator is having a brain-numb day (see [AI Psychosis on supersuit.wiki](
 
 ## Further Reading
 
+- [Recipe](/concepts/recipe): golden examples are WHAT good looks like; a recipe is HOW one asset was made, and a yes verdict in it is how an asset gets nominated here.
 - [Golden Atomic Brand References](/concepts/golden-atomic-brand-references): the implementation pattern for the visual category: curated reference images that anchor recurring identity in image data.
 - [Context Engineering](/disciplines/context-engineering): the discipline of curating what information the harness feeds to the model at each step. Golden examples are one slice of context.
 - [Skill Files](/concepts/skill-files): the structural unit that often carries the reference list for a category.
