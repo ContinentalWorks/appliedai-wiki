@@ -1,7 +1,17 @@
 {
   "changeEvents": [
     {
-      "id": "concepts/deep-provenance@ff90ff2240d4a09a74e11da5a22b5a0d6a8ca143",
+      "id": "concepts/recipe@c3d791c9120bdff8bb2a208b5e2c82de083774c4",
+      "type": "updated",
+      "date": "2026-10-29T20:51:16-05:00",
+      "docKey": "concepts/recipe",
+      "routePath": "/concepts/recipe",
+      "section": "concepts",
+      "title": "Recipe",
+      "description": "The record of exactly how one generated asset was made, kept beside the asset, so the next one starts from what worked instead of from a blank prompt. The verdict in it is how a system learns your taste."
+    },
+    {
+      "id": "concepts/deep-provenance@a43a9bd33d33bbe2f48ec8df17f02d9baf55bb5a",
       "type": "updated",
       "date": "2026-10-29T20:50:26-05:00",
       "docKey": "concepts/deep-provenance",
@@ -11,7 +21,7 @@
       "description": "Recording what produced every artifact, in enough detail that you can tell which input to change. Without it you re-roll and hope. With it you steer, and you also learn which finished work a changed input made suspect."
     },
     {
-      "id": "concepts/golden-examples@ff90ff2240d4a09a74e11da5a22b5a0d6a8ca143",
+      "id": "concepts/golden-examples@a43a9bd33d33bbe2f48ec8df17f02d9baf55bb5a",
       "type": "updated",
       "date": "2026-10-29T20:50:26-05:00",
       "docKey": "concepts/golden-examples",
@@ -21,7 +31,7 @@
       "description": "The A+ outputs you preserve in your library so they can ride as in-context references on every new generation. The asset class of AI-native workflows. Mediocre stuff compounds the same way A+ stuff does."
     },
     {
-      "id": "concepts/golden-processes@ff90ff2240d4a09a74e11da5a22b5a0d6a8ca143",
+      "id": "concepts/golden-processes@a43a9bd33d33bbe2f48ec8df17f02d9baf55bb5a",
       "type": "updated",
       "date": "2026-10-29T20:50:26-05:00",
       "docKey": "concepts/golden-processes",
@@ -31,7 +41,7 @@
       "description": "Golden is a status for how you make things, not only for the artifacts you keep. A golden process is a human-blessed, version-controlled procedure that reliably turns a small amount of the right human input into an excellent result."
     },
     {
-      "id": "concepts/hand-rolling@ff90ff2240d4a09a74e11da5a22b5a0d6a8ca143",
+      "id": "concepts/hand-rolling@a43a9bd33d33bbe2f48ec8df17f02d9baf55bb5a",
       "type": "updated",
       "date": "2026-10-29T20:50:26-05:00",
       "docKey": "concepts/hand-rolling",
@@ -41,7 +51,7 @@
       "description": "Producing a one-off result by hand to get around your own system, instead of improving the system so it produces the result. Every hand-roll is a fix that helps once and teaches the generator nothing."
     },
     {
-      "id": "concepts/recipe@ff90ff2240d4a09a74e11da5a22b5a0d6a8ca143",
+      "id": "concepts/recipe@a43a9bd33d33bbe2f48ec8df17f02d9baf55bb5a",
       "type": "new",
       "date": "2026-10-29T20:50:26-05:00",
       "docKey": "concepts/recipe",
@@ -15973,6 +15983,10 @@
     }
   ],
   "pageDates": {
+    "concepts/recipe": {
+      "updated": "2026-10-29T20:51:16-05:00",
+      "created": "2026-10-29T20:50:26-05:00"
+    },
     "concepts/deep-provenance": {
       "updated": "2026-10-29T20:50:26-05:00",
       "created": "2026-07-26T22:22:17-05:00"
@@ -15988,10 +16002,6 @@
     "concepts/hand-rolling": {
       "updated": "2026-10-29T20:50:26-05:00",
       "created": "2026-07-23T13:03:40-05:00"
-    },
-    "concepts/recipe": {
-      "updated": "2026-10-29T20:50:26-05:00",
-      "created": "2026-10-29T20:50:26-05:00"
     },
     "perspectives/refactor-in-cycles-not-up-front": {
       "updated": "2026-10-24T19:28:32-07:00",
