@@ -48,6 +48,7 @@ When your own generator produces the wrong thing, the fix is upstream, in the ge
 
 ## Further Reading
 
+- [Recipe](/concepts/recipe): hand-editing a generated asset without regenerating it makes its recipe describe an image that no longer exists.
 - [Paving the Desire Path](/concepts/paving-the-desire-path): the retrospective sweep that finds the hand-rolls you could not notice while making them.
 - [The Generator Is the Only Thing Worth Fixing](/perspectives/the-generator-is-the-only-thing-worth-fixing): the principle that replaces hand-rolling. When a rule blocks the outcome, change the rule.
 - [Recurring Work Belongs in Code](/perspectives/recurring-work-belongs-in-code): the standardized path is cheaper and more consistent than the hand-rolled one, which is why routing around it is a loss.

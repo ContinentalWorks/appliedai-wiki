@@ -1,0 +1,153 @@
+{
+  "mode": "derive",
+  "derivedFrom": "illustrations/concepts/recipe.png",
+  "sourceRecipe": "illustrations/concepts/recipe.png.recipe.json",
+  "generator": "optimize-images.py (wiki optimize-images)",
+  "generatedAt": "2026-10-30T01:48:32.516Z",
+  "asset": "static/img/comics/concepts/recipe.webp",
+  "stylePack": "warm-editorial-titled",
+  "wikiHero": {
+    "slug": "concepts/recipe",
+    "title": "RECIPE",
+    "labels": [
+      "Each new chat forgets what worked",
+      "Write down how this one was made",
+      "The next one starts from the recipe"
+    ],
+    "beats": [
+      "BEAT ONE: The same person in every panel: an interior designer, a woman in her late forties with a short grey-streaked bob, small round tortoiseshell glasses, an olive-green linen shirt with rolled sleeves. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. NOT the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. At a wooden studio desk with fabric swatches and a paint fan deck, she sits at the glowing translucent amber laptop. On its screen the Chief of Agents (a rounded character in a gold military cap) stands among a messy fan of many kitchen renderings, each slightly different, some with cabinets the wrong colour, scattered like discarded drafts. She rubs her temple, tired. Nothing is written down anywhere.",
+      "BEAT TWO: The same person in every panel: an interior designer, a woman in her late forties with a short grey-streaked bob, small round tortoiseshell glasses, an olive-green linen shirt with rolled sleeves. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. NOT the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. Same desk. On the laptop screen one finished kitchen rendering with sage-green cabinets glows, and beside it the Chief of Agents and two small sub-agents pin a small cream index card to it, the card drawn with a tiny row of three ordered reference thumbnails, a few lines of prompt text as unreadable squiggles, and a small check mark. In the room she points at the screen and nods, giving her approval.",
+      "BEAT THREE: The same person in every panel: an interior designer, a woman in her late forties with a short grey-streaked bob, small round tortoiseshell glasses, an olive-green linen shirt with rolled sleeves. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera. NOT the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. Same desk, a new kitchen photo printed on paper beside her. On the laptop screen the Chief of Agents holds up the same cream index card and the sub-agents use it to build a new, different kitchen rendering that comes out right the first time, glowing warmly. In the room she sits back relaxed with a cup of tea, watching, no longer working by hand."
+    ],
+    "layout": "row",
+    "tier": "best",
+    "adapter": "none (--publish)"
+  },
+  "readback": {
+    "rounds": 3,
+    "overruled": true,
+    "verdicts": [
+      {
+        "assertion": "every person's eyes are open and clearly visible unless plainly asleep",
+        "verdict": "DEFECT",
+        "note": "The main person's eye in panel 1 is obscured by hand/hair/glasses and is not clearly visible, though they are not asleep."
+      },
+      {
+        "assertion": "no lettering beyond the declared strings; invented words on folders, screens or tags are a DEFECT",
+        "verdict": "PASS",
+        "note": "I see only the declared title and panel labels; no readable invented words on folders, screens, tags, or objects."
+      },
+      {
+        "assertion": "a screen faces the person using it, never the viewer",
+        "verdict": "PASS",
+        "note": "Each laptop screen faces the seated user, and the viewer sees it from over the user's shoulder."
+      },
+      {
+        "assertion": "exactly 3 panels, one per beat, no more and no fewer",
+        "verdict": "PASS",
+        "note": "There are exactly three panels."
+      },
+      {
+        "assertion": "the panels sit in one horizontal row, read left to right, with cream gutters and no drawn borders",
+        "verdict": "PASS",
+        "note": "The three panels sit in one horizontal left-to-right row with cream gutters and no drawn panel borders."
+      },
+      {
+        "assertion": "warm editorial painterly illustration, soft brushwork; NOT comic, NOT flat vector, NOT photoreal, NOT 3D",
+        "verdict": "PASS",
+        "note": "The image has warm editorial painterly soft brushwork, not flat vector, photorealistic, 3D, or comic style."
+      },
+      {
+        "assertion": "muted natural palette on a warm cream ground",
+        "verdict": "PASS",
+        "note": "The palette is muted and natural on a warm cream ground."
+      },
+      {
+        "assertion": "no figure carries the likeness the style references leak: nobody wears a denim or jean jacket, a chest patch, a smiley-face badge, an enamel pin or a white tee under an open jacket, and nobody is a recognizable real public figure; any of these is a DEFECT. People are ordinary and drawn from the scene's own description",
+        "verdict": "PASS",
+        "note": "No one wears denim, a chest patch, smiley badge, enamel pin, or white tee under an open jacket, and no public figure likeness is apparent."
+      },
+      {
+        "assertion": "ONE consistent cast: the person using the glowing laptop is the same person in every panel they appear in, with the same face, hair, age and clothing. That recurrence is the strip's law and is never a DEFECT; a different person in that role from one panel to the next is a DEFECT",
+        "verdict": "PASS",
+        "note": "The laptop user appears to be the same person in all three panels, with consistent hair, glasses, age, and green clothing."
+      },
+      {
+        "assertion": "whoever is using the glowing laptop is shot from behind them, over their shoulder: they are nearer to the camera than the laptop is, its screen faces them, and we look past them into it. A laptop standing between the camera and the person using it, whichever way its lid faces, is a DEFECT",
+        "verdict": "PASS",
+        "note": "The user is closer to the camera than the laptop in every panel, with the screen facing them and viewed over their shoulder."
+      },
+      {
+        "assertion": "every declared string is present and spelled character-exact; a near-miss is a DEFECT",
+        "verdict": "PASS",
+        "note": "All declared strings are present and appear spelled exactly as specified."
+      },
+      {
+        "assertion": "no text beyond the declared strings; invented lettering is a DEFECT",
+        "verdict": "PASS",
+        "note": "No additional readable text appears beyond the declared strings."
+      },
+      {
+        "assertion": "the title bar sits across the top margin and each label in its own band at the top of its panel, never lettered over the artwork; there is no footer bar and none is expected",
+        "verdict": "PASS",
+        "note": "The title sits across the top margin, each panel label is in its own top band, and there is no footer bar."
+      },
+      {
+        "assertion": "DEVICE FACING: for EVERY phone, laptop, tablet or monitor in frame, crop-zoom the device together with the person using it. The glowing display is on the side that faces its user. If the viewer can see the screen's content AND the user is on the far side of the device (the device sits between the camera and the user's face), the screen is on the wrong side of the device: DEFECT. A visible screen passes only when the shot is over the user's shoulder, or when nobody in frame is using the device. AND THE SECOND DEFECT, which an anatomically correct render still commits: if what the screen shows (or fails to show) is part of what this beat argues, and the camera is in FRONT of the user so the viewer sees the back of the device and not the display, the beat has been shot from a position that cannot show its own subject: DEFECT. Judge it by the beat, not by the anatomy; a clean view of the back of the device is a correct picture of the wrong thing.",
+        "verdict": "PASS",
+        "note": "Every visible laptop display faces its user and is shown over the user's shoulder; no device is shot from the wrong side for the beat."
+      },
+      {
+        "assertion": "READABLE SURFACE: every page, card, sign, letter or other writing surface is oriented for the person reading it in the scene, not rotated flat to the lens. A surface whose reader is looking at it from the wrong side, or whose writing faces the camera while its reader faces away: DEFECT.",
+        "verdict": "PASS",
+        "note": "Readable surfaces shown, such as the laptop screen contents and held recipe board, face the in-scene reader rather than being flipped toward the lens."
+      },
+      {
+        "assertion": "VEHICLE SEAT FACING: every rider or passenger in a moving vehicle faces the direction of travel unless the scene says otherwise. A rider facing backward in a forward-moving vehicle: DEFECT.",
+        "verdict": "PASS",
+        "note": "There are no moving vehicles or riders to assess."
+      },
+      {
+        "assertion": "SEATED ANATOMY: every seated figure has a waist, a lap and a seat under them, with the table in front of the body. A torso emerging from the tabletop with nothing beneath it: DEFECT.",
+        "verdict": "PASS",
+        "note": "The seated figure has a visible waist/lap area and chair, with the table in front of the body."
+      },
+      {
+        "assertion": "NO UI CHROME: no screen or surface carries invented interface furniture, menus, buttons, status bars or lettering the caller did not declare. Any such chrome: DEFECT.",
+        "verdict": "PASS",
+        "note": "The screens show illustration content without invented menus, buttons, status bars, or UI lettering."
+      },
+      {
+        "assertion": "the title bar across the top reads exactly \"RECIPE\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "The title reads exactly \u201cRECIPE\u201d."
+      },
+      {
+        "assertion": "the label band on panel 1 reads exactly \"Each new chat forgets what worked\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 1 label reads exactly \u201cEach new chat forgets what worked\u201d."
+      },
+      {
+        "assertion": "the label band on panel 2 reads exactly \"Write down how this one was made\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 2 label reads exactly \u201cWrite down how this one was made\u201d."
+      },
+      {
+        "assertion": "the label band on panel 3 reads exactly \"The next one starts from the recipe\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 3 label reads exactly \u201cThe next one starts from the recipe\u201d."
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "tool": "scripts/optimize-images.py",
+      "op": "webp",
+      "quality": 80,
+      "maxWidth": 1536,
+      "from": "static/img/comics/concepts/recipe.png",
+      "fromSha256": "24f0256aee4ea82852b58693cac8359958defce294f52a10abccfdbedffdecba",
+      "at": "2026-10-30T01:48:34.474156+00:00"
+    }
+  ]
+}

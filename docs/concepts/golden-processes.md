@@ -61,6 +61,7 @@ That reframes the goal of automation. The aim is not to remove the human from th
 
 ## Further Reading
 
+- [Recipe](/concepts/recipe): the record of how one asset was made. A run of recipes for the same kind of work is what a golden process is distilled from, and a skill is where they accumulate.
 - [Golden](/concepts/golden): the promotion gate this concept extends from artifacts to procedures.
 - [Golden Examples](/concepts/golden-examples): the artifact-side discipline and the compounding that makes blessing worth defending.
 - [Precise Procedures Are Written for the Agent](/perspectives/precise-procedures-are-written-for-the-agent): why a golden process must be specified without ambiguity.
