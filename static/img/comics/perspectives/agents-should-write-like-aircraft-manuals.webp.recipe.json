@@ -1,0 +1,153 @@
+{
+  "mode": "derive",
+  "derivedFrom": "illustrations/perspectives/agents-should-write-like-aircraft-manuals.png",
+  "sourceRecipe": "illustrations/perspectives/agents-should-write-like-aircraft-manuals.png.recipe.json",
+  "generator": "optimize-images.py (wiki optimize-images)",
+  "generatedAt": "2026-11-01T00:00:27.302Z",
+  "asset": "static/img/comics/perspectives/agents-should-write-like-aircraft-manuals.webp",
+  "stylePack": "warm-editorial-titled",
+  "wikiHero": {
+    "slug": "perspectives/agents-should-write-like-aircraft-manuals",
+    "title": "WRITE LIKE AN AIRCRAFT MANUAL",
+    "labels": [
+      "Clever prose takes long to check.",
+      "Plain lines take seconds to check.",
+      "A false claim stands out fast."
+    ],
+    "beats": [
+      "The same woman in every panel: late forties, silver chin-length bob, round tortoiseshell glasses, olive-green knit cardigan over a cream blouse, at a wooden desk in a warm study. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera, so we read the glowing amber screen past her shoulder. NOT the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The Chief of Agents, a small rounded figure in a gold military cap, is only ever ON the screen, never in the room. On the glowing screen the Chief of Agents unrolls one long scroll covered in dense looping ornate script with curls and flourishes, spilling off the edge of the screen. She leans back with one hand pressed to her temple, tired.",
+      "The same woman in every panel: late forties, silver chin-length bob, round tortoiseshell glasses, olive-green knit cardigan over a cream blouse, at a wooden desk in a warm study. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera, so we read the glowing amber screen past her shoulder. NOT the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The Chief of Agents, a small rounded figure in a gold military cap, is only ever ON the screen, never in the room. On the glowing screen the Chief of Agents now holds up a clipboard of short, flat, evenly ruled lines, like a printed aircraft maintenance checklist, with a small simple line drawing of an airplane wing at its top corner. She leans forward, relaxed, reading easily, one hand around a mug.",
+      "The same woman in every panel: late forties, silver chin-length bob, round tortoiseshell glasses, olive-green knit cardigan over a cream blouse, at a wooden desk in a warm study. The camera is behind her right shoulder; she is always nearer to the camera than the laptop is; her shoulder and the back of her head are the closest thing in frame; the keyboard half lies nearest to her and the lid tilts AWAY from the camera, so we read the glowing amber screen past her shoulder. NOT the laptop standing between her and the camera with its lid turned toward us and her sitting behind it. ABSOLUTELY NOT: a denim jacket, a jean jacket, any chest patch, any smiley-face badge, any enamel pin, a white tee under an open jacket. No recurring branded character and no identifiable real individual. The Chief of Agents, a small rounded figure in a gold military cap, is only ever ON the screen, never in the room. She points one finger at the screen. On the screen, one of the short ruled lines on the Chief's checklist glows muted vermilion red, and the Chief of Agents draws a firm line through it with a gold pencil while the other lines stay calm amber. She is nodding, calm."
+    ],
+    "layout": "row",
+    "tier": "best",
+    "adapter": "none (--publish)"
+  },
+  "readback": {
+    "rounds": 3,
+    "overruled": true,
+    "verdicts": [
+      {
+        "assertion": "every face the camera sees from the front, three-quarter front or full profile has its visible eyes open and clearly drawn unless the person is plainly asleep; an eye there drawn closed, blank or hidden under hair or glare is a DEFECT. A person seen from behind or over the shoulder (the back of the head, or a lost profile showing at most a cheek and the edge of an eye) is not required to show their eyes and is never a DEFECT under this line",
+        "verdict": "PASS",
+        "note": "The visible human is mainly over-the-shoulder/profile with glasses, and the screen character faces have open black eyes."
+      },
+      {
+        "assertion": "no lettering beyond the declared strings; invented words on folders, screens or tags are a DEFECT",
+        "verdict": "DEFECT",
+        "note": "There is extra undeclared lettering/scribble on the laptop content and notebook/page surfaces beyond the declared strings."
+      },
+      {
+        "assertion": "a screen faces the person using it, never the viewer",
+        "verdict": "PASS",
+        "note": "The laptop screens face the seated user, with the viewer looking over the user's shoulder."
+      },
+      {
+        "assertion": "exactly 3 panels, one per beat, no more and no fewer",
+        "verdict": "PASS",
+        "note": "The illustration contains exactly three panels."
+      },
+      {
+        "assertion": "the panels sit in one horizontal row, read left to right, with cream gutters and no drawn borders",
+        "verdict": "PASS",
+        "note": "The three panels sit in one horizontal row with cream gutters and no drawn border lines."
+      },
+      {
+        "assertion": "warm editorial painterly illustration, soft brushwork; NOT comic, NOT flat vector, NOT photoreal, NOT 3D",
+        "verdict": "PASS",
+        "note": "The image uses warm painterly editorial brushwork, not flat vector, comic, photoreal, or 3D style."
+      },
+      {
+        "assertion": "muted natural palette on a warm cream ground",
+        "verdict": "PASS",
+        "note": "The palette is muted and natural on a warm cream ground."
+      },
+      {
+        "assertion": "no figure carries the likeness the style references leak: nobody wears a denim or jean jacket, a chest patch, a smiley-face badge, an enamel pin or a white tee under an open jacket, and nobody is a recognizable real public figure; any of these is a DEFECT. People are ordinary and drawn from the scene's own description",
+        "verdict": "PASS",
+        "note": "No one wears denim, a jean jacket, chest patch, smiley badge, enamel pin, or a white tee under an open jacket, and no public figure likeness is apparent."
+      },
+      {
+        "assertion": "ONE consistent cast: the person using the glowing laptop is the same person in every panel they appear in, with the same face, hair, age and clothing. That recurrence is the strip's law and is never a DEFECT; a different person in that role from one panel to the next is a DEFECT",
+        "verdict": "PASS",
+        "note": "The laptop user is consistently the same gray-haired person with glasses and a green sweater in all panels."
+      },
+      {
+        "assertion": "whoever is using the glowing laptop is shot from behind them, over their shoulder: they are nearer to the camera than the laptop is, its screen faces them, and we look past them into it. A laptop standing between the camera and the person using it, whichever way its lid faces, is a DEFECT",
+        "verdict": "PASS",
+        "note": "Each laptop-using scene is shot from behind/over the user's shoulder, with the user nearer than the laptop."
+      },
+      {
+        "assertion": "every declared string is present and spelled character-exact; a near-miss is a DEFECT",
+        "verdict": "PASS",
+        "note": "The title and all three panel labels are present and spelled exactly as declared."
+      },
+      {
+        "assertion": "no text beyond the declared strings; invented lettering is a DEFECT",
+        "verdict": "DEFECT",
+        "note": "Extra undeclared writing appears on the laptop screen content and handwritten desk pages."
+      },
+      {
+        "assertion": "the title bar sits across the top margin and each label in its own band at the top of its panel, never lettered over the artwork; there is no footer bar and none is expected",
+        "verdict": "PASS",
+        "note": "The title sits across the top margin, and each panel label is in its own top band with no footer bar."
+      },
+      {
+        "assertion": "DEVICE FACING: for EVERY phone, laptop, tablet or monitor in frame, crop-zoom the device together with the person using it. The glowing display is on the side that faces its user. If the viewer can see the screen's content AND the user is on the far side of the device (the device sits between the camera and the user's face), the screen is on the wrong side of the device: DEFECT. A visible screen passes only when the shot is over the user's shoulder, or when nobody in frame is using the device. AND THE SECOND DEFECT, which an anatomically correct render still commits: if what the screen shows (or fails to show) is part of what this beat argues, and the camera is in FRONT of the user so the viewer sees the back of the device and not the display, the beat has been shot from a position that cannot show its own subject: DEFECT. Judge it by the beat, not by the anatomy; a clean view of the back of the device is a correct picture of the wrong thing.",
+        "verdict": "PASS",
+        "note": "The visible laptop displays face the user and are seen over the user's shoulder, not from the wrong side."
+      },
+      {
+        "assertion": "READABLE SURFACE: every page, card, sign, letter or other writing surface is oriented for the person reading it in the scene, not rotated flat to the lens. A surface whose reader is looking at it from the wrong side, or whose writing faces the camera while its reader faces away: DEFECT.",
+        "verdict": "PASS",
+        "note": "The visible written surfaces are generally oriented toward the seated reader/user rather than rotated flat solely to the lens."
+      },
+      {
+        "assertion": "VEHICLE SEAT FACING: every rider or passenger in a moving vehicle faces the direction of travel unless the scene says otherwise. A rider facing backward in a forward-moving vehicle: DEFECT.",
+        "verdict": "PASS",
+        "note": "No moving vehicle or rider is shown."
+      },
+      {
+        "assertion": "SEATED ANATOMY: every seated figure has a waist, a lap and a seat under them, with the table in front of the body. A torso emerging from the tabletop with nothing beneath it: DEFECT.",
+        "verdict": "PASS",
+        "note": "The seated figure has a visible chair/seat area, body below the table, and the table in front."
+      },
+      {
+        "assertion": "NO UI CHROME: no screen or surface carries invented interface furniture, menus, buttons, status bars or lettering the caller did not declare. Any such chrome: DEFECT.",
+        "verdict": "DEFECT",
+        "note": "The laptop and paper surfaces include undeclared written/scribbled content, which violates the no extra screen/surface lettering rule."
+      },
+      {
+        "assertion": "the title bar across the top reads exactly \"WRITE LIKE AN AIRCRAFT MANUAL\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "The title reads exactly \u201cWRITE LIKE AN AIRCRAFT MANUAL\u201d."
+      },
+      {
+        "assertion": "the label band on panel 1 reads exactly \"Clever prose takes long to check.\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 1 label reads exactly \u201cClever prose takes long to check.\u201d"
+      },
+      {
+        "assertion": "the label band on panel 2 reads exactly \"Plain lines take seconds to check.\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 2 label reads exactly \u201cPlain lines take seconds to check.\u201d"
+      },
+      {
+        "assertion": "the label band on panel 3 reads exactly \"A false claim stands out fast.\", character for character, with no letter missing, doubled, swapped or invented",
+        "verdict": "PASS",
+        "note": "Panel 3 label reads exactly \u201cA false claim stands out fast.\u201d"
+      }
+    ]
+  },
+  "transforms": [
+    {
+      "tool": "scripts/optimize-images.py",
+      "op": "webp",
+      "quality": 80,
+      "maxWidth": 1536,
+      "from": "static/img/comics/perspectives/agents-should-write-like-aircraft-manuals.png",
+      "fromSha256": "8dc6233b4ffa1f152245b611d91851edebec09fbc2f6cec089ea437109aad6e7",
+      "at": "2026-11-01T00:00:28.939627+00:00"
+    }
+  ]
+}
