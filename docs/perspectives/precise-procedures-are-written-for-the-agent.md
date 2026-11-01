@@ -54,3 +54,4 @@ A good process is a simple idea with a precise procedure. Cutting the precision 
 - [Agent Rule Files](/concepts/agent-rule-files): the always-on instructions where precision governs behavior across every task.
 - [Spec Writing](/disciplines/spec-writing): the craft of specifying intent so an executor, human or agent, cannot misread it.
 - [Version-Control Your Prompts](/playbooks/version-control-your-prompts): precise procedures belong in version control, where they are read the same way every run.
+- [Agents Should Write Like Aircraft Manuals](/perspectives/agents-should-write-like-aircraft-manuals): the other direction, where a person reads what the agent writes.

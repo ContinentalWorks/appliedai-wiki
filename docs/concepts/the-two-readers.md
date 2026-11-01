@@ -81,3 +81,4 @@ It reads worse and it resumes better, and resuming is the entire function of the
 - [The Session Save](/concepts/the-session-save) on the moment the register gets decided, and usually skipped.
 - [Compounding Docs](/concepts/compounding-docs) on why what you write for the machine pays you back.
 - [Agent Rule Files](/concepts/agent-rule-files) on files whose only reader is an agent, and what that does to how they are written.
+- [Agents Should Write Like Aircraft Manuals](/perspectives/agents-should-write-like-aircraft-manuals) on the plain register for the human reader, and why it also exposes false claims.
