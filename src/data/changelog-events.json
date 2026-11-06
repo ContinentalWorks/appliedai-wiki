@@ -1,6 +1,36 @@
 {
   "changeEvents": [
     {
+      "id": "concepts/the-two-readers@79e4711ac7dba9628583455286addbf4a9304760",
+      "type": "updated",
+      "date": "2026-10-31T19:03:13-05:00",
+      "docKey": "concepts/the-two-readers",
+      "routePath": "/concepts/the-two-readers",
+      "section": "concepts",
+      "title": "The Two Readers",
+      "description": "Every artifact an agentic system writes has a reader, and it is either the next agent session or a person. They want opposite things, so audience is a separate axis from how much scrutiny the writing will survive, and it should be derived from where the file lives rather than decided sentence by sentence."
+    },
+    {
+      "id": "perspectives/agents-should-write-like-aircraft-manuals@79e4711ac7dba9628583455286addbf4a9304760",
+      "type": "new",
+      "date": "2026-10-31T19:03:13-05:00",
+      "docKey": "perspectives/agents-should-write-like-aircraft-manuals",
+      "routePath": "/perspectives/agents-should-write-like-aircraft-manuals",
+      "section": "perspectives",
+      "title": "Agents Should Write Like Aircraft Manuals",
+      "description": "Tell your agent to write in Simplified Technical English, the standard for aircraft maintenance manuals. Short, plain sentences take less of your attention to check, and they show you the claims that are false."
+    },
+    {
+      "id": "perspectives/precise-procedures-are-written-for-the-agent@79e4711ac7dba9628583455286addbf4a9304760",
+      "type": "updated",
+      "date": "2026-10-31T19:03:13-05:00",
+      "docKey": "perspectives/precise-procedures-are-written-for-the-agent",
+      "routePath": "/perspectives/precise-procedures-are-written-for-the-agent",
+      "section": "perspectives",
+      "title": "Precise Procedures Are Written for the Agent",
+      "description": "Dense procedural precision reads as over-engineering to a human skimming for the gist. It is not for the skim. It is the interface an agent executes against faithfully, and the second reader changes what good writing is."
+    },
+    {
       "id": "concepts/recipe@c3d791c9120bdff8bb2a208b5e2c82de083774c4",
       "type": "updated",
       "date": "2026-10-29T20:51:16-05:00",
@@ -15983,6 +16013,18 @@
     }
   ],
   "pageDates": {
+    "concepts/the-two-readers": {
+      "updated": "2026-10-31T19:03:13-05:00",
+      "created": "2026-09-08T13:16:19-04:00"
+    },
+    "perspectives/agents-should-write-like-aircraft-manuals": {
+      "updated": "2026-10-31T19:03:13-05:00",
+      "created": "2026-10-31T19:03:13-05:00"
+    },
+    "perspectives/precise-procedures-are-written-for-the-agent": {
+      "updated": "2026-10-31T19:03:13-05:00",
+      "created": "2026-07-20T13:49:30-05:00"
+    },
     "concepts/recipe": {
       "updated": "2026-10-29T20:51:16-05:00",
       "created": "2026-10-29T20:50:26-05:00"
@@ -16094,10 +16136,6 @@
     "concepts/the-session-save": {
       "updated": "2026-10-09T11:11:31-04:00",
       "created": "2026-06-07T19:36:45-05:00"
-    },
-    "concepts/the-two-readers": {
-      "updated": "2026-10-09T11:11:31-04:00",
-      "created": "2026-09-08T13:16:19-04:00"
     },
     "perspectives/onboarding-belongs-in-a-repo-that-holds-your-state": {
       "updated": "2026-10-09T11:11:31-04:00",
@@ -16578,10 +16616,6 @@
     "perspectives/only-frontier-models-replace-skilled-labor": {
       "updated": "2026-08-29T07:29:14-04:00",
       "created": "2026-07-20T08:06:33-05:00"
-    },
-    "perspectives/precise-procedures-are-written-for-the-agent": {
-      "updated": "2026-08-29T07:29:14-04:00",
-      "created": "2026-07-20T13:49:30-05:00"
     },
     "perspectives/progressive-automation-is-the-job": {
       "updated": "2026-08-29T07:29:14-04:00",
