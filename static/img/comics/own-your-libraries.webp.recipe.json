@@ -6,27 +6,27 @@
   "specVersion": "0.6",
   "refs": [
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
     }
   ],
   "timestamp": "2026-09-13T04:37:21.743254+00:00",
   "sha256": "4b099764a2dabb7fd3ff16b9da7bdf282e12c6d96557a46e661c87e6d17712b7",
-  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "stylePack": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
   "size": "1536x1024",
   "quality": "high",
   "guards": [
@@ -56,5 +56,10 @@
       "fromSha256": "4b099764a2dabb7fd3ff16b9da7bdf282e12c6d96557a46e661c87e6d17712b7",
       "at": "2026-09-13T04:38:11.452621+00:00"
     }
-  ]
+  ],
+  "publicPaths": {
+    "by": "agenticstory.public_paths",
+    "rule": "home-folder paths written as ~/...; temporary-folder paths written as <repo>/<path> (or <tmp>/<name>/... when no repo resolves); the recipe as recorded stays with the work",
+    "rewritten": 7
+  }
 }
