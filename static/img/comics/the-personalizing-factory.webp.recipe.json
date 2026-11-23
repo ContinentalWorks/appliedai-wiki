@@ -5,25 +5,30 @@
   "specVersion": "0.6",
   "refs": [
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/warm-editorial-swatch.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-land.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-feast.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-make.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled/refs/ref-object.png"
     },
     {
-      "path": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
+      "path": "~/Documents/github-repos/hyperagentic-age/universe/reference/supercharged-laptop/orange.png"
     }
   ],
   "timestamp": "2026-07-29T14:19:08.662622+00:00",
   "sha256": "89b168d0902e4796814db89065027dee802f11ba33fd29975dfe7130e6217475",
-  "stylePack": "/Users/garysheng/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled"
+  "stylePack": "~/Documents/github-repos/hyperagentic-age/universe/reference/style/warm-editorial-titled",
+  "publicPaths": {
+    "by": "agenticstory.public_paths",
+    "rule": "home-folder paths written as ~/...; temporary-folder paths written as <repo>/<path> (or <tmp>/<name>/... when no repo resolves); the recipe as recorded stays with the work",
+    "rewritten": 7
+  }
 }
